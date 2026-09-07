@@ -374,7 +374,7 @@ function gradeFor(score) {
 }
 
 function renderMap() {
-  MAP = L.map("map", { scrollWheelZoom: true }).setView([35.5, -79.0], 7);
+  MAP = L.map("map", { scrollWheelZoom: true, minZoom: 6, maxZoom: 18, maxBounds: [[33.0, -85.0], [37.4, -74.8]], maxBoundsViscosity: 1.0 }).setView([35.5, -79.0], 7);
   L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", { attribution: "&copy; OpenStreetMap &copy; CARTO" }).addTo(MAP);
   COUNTIES_LAYER = L.geoJSON(NC_GEO, {
     style: () => ({ fillColor: "#e8e8e8", weight: 1, opacity: 1, color: "#666", fillOpacity: 0.6 }),
