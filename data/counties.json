@@ -2,147 +2,176 @@
   "alamance": {
     "label": "Alamance County",
     "json": "data/alamance.json",
-    "fips": "37001"
+    "fips": "37001",
+    "benchmark": "data/alamance_benchmark.json"
   },
   "alexander": {
     "label": "Alexander County",
     "json": "data/alexander.json",
-    "fips": "37003"
+    "fips": "37003",
+    "benchmark": "data/alexander_benchmark.json"
   },
   "ashe": {
     "label": "Ashe County",
     "json": "data/ashe.json",
-    "fips": "37009"
+    "fips": "37009",
+    "benchmark": "data/ashe_benchmark.json"
   },
   "avery": {
     "label": "Avery County",
     "json": "data/avery.json",
-    "fips": "37011"
+    "fips": "37011",
+    "benchmark": "data/avery_benchmark.json"
   },
   "beaufort": {
     "label": "Beaufort County",
     "json": "data/beaufort.json",
-    "fips": "37013"
+    "fips": "37013",
+    "benchmark": "data/beaufort_benchmark.json"
   },
   "bladen": {
     "label": "Bladen County",
     "json": "data/bladen.json",
-    "fips": "37017"
+    "fips": "37017",
+    "benchmark": "data/bladen_benchmark.json"
   },
   "brunswick": {
     "label": "Brunswick County",
     "json": "data/brunswick.json",
-    "fips": "37019"
+    "fips": "37019",
+    "benchmark": "data/brunswick_benchmark.json"
   },
   "buncombe": {
     "label": "Buncombe County",
     "json": "data/buncombe.json",
-    "fips": "37021"
+    "fips": "37021",
+    "benchmark": "data/buncombe_benchmark.json"
   },
   "burke": {
     "label": "Burke County",
     "json": "data/burke.json",
-    "fips": "37023"
+    "fips": "37023",
+    "benchmark": "data/burke_benchmark.json"
   },
   "cabarrus": {
     "label": "Cabarrus County",
     "json": "data/cabarrus.json",
-    "fips": "37025"
+    "fips": "37025",
+    "benchmark": "data/cabarrus_benchmark.json"
   },
   "caldwell": {
     "label": "Caldwell County",
     "json": "data/caldwell.json",
-    "fips": "37027"
+    "fips": "37027",
+    "benchmark": "data/caldwell_benchmark.json"
   },
   "camden": {
     "label": "Camden County",
     "json": "data/camden.json",
-    "fips": "37029"
+    "fips": "37029",
+    "benchmark": "data/camden_benchmark.json"
   },
   "catawba": {
     "label": "Catawba County",
     "json": "data/catawba.json",
-    "fips": "37035"
+    "fips": "37035",
+    "benchmark": "data/catawba_benchmark.json"
   },
   "chatham": {
     "label": "Chatham County",
     "json": "data/chatham.json",
-    "fips": "37037"
+    "fips": "37037",
+    "benchmark": "data/chatham_benchmark.json"
   },
   "chowan": {
     "label": "Chowan County",
     "json": "data/chowan.json",
-    "fips": "37041"
+    "fips": "37041",
+    "benchmark": "data/chowan_benchmark.json"
   },
   "clay": {
     "label": "Clay County",
     "json": "data/clay.json",
-    "fips": "37043"
+    "fips": "37043",
+    "benchmark": "data/clay_benchmark.json"
   },
   "cleveland": {
     "label": "Cleveland County",
     "json": "data/cleveland.json",
-    "fips": "37045"
+    "fips": "37045",
+    "benchmark": "data/cleveland_benchmark.json"
   },
   "craven": {
     "label": "Craven County",
     "json": "data/craven.json",
-    "fips": "37049"
+    "fips": "37049",
+    "benchmark": "data/craven_benchmark.json"
   },
   "cumberland": {
     "label": "Cumberland County",
     "json": "data/cumberland.json",
-    "fips": "37051"
+    "fips": "37051",
+    "benchmark": "data/cumberland_benchmark.json"
   },
   "dare": {
     "label": "Dare County",
     "json": "data/dare.json",
-    "fips": "37055"
+    "fips": "37055",
+    "benchmark": "data/dare_benchmark.json"
   },
   "davidson": {
     "label": "Davidson County",
     "json": "data/davidson.json",
-    "fips": "37057"
+    "fips": "37057",
+    "benchmark": "data/davidson_benchmark.json"
   },
   "davie": {
     "label": "Davie County",
     "json": "data/davie.json",
-    "fips": "37059"
+    "fips": "37059",
+    "benchmark": "data/davie_benchmark.json"
   },
   "durham": {
     "label": "Durham County",
     "json": "data/durham.json",
-    "fips": "37063"
+    "fips": "37063",
+    "benchmark": "data/durham_benchmark.json"
   },
   "edgecombe": {
     "label": "Edgecombe County",
     "json": "data/edgecombe.json",
-    "fips": "37065"
+    "fips": "37065",
+    "benchmark": "data/edgecombe_benchmark.json"
   },
   "forsyth": {
     "label": "Forsyth County",
     "json": "data/forsyth.json",
-    "fips": "37067"
+    "fips": "37067",
+    "benchmark": "data/forsyth_benchmark.json"
   },
   "franklin": {
     "label": "Franklin County",
     "json": "data/franklin.json",
-    "fips": "37069"
+    "fips": "37069",
+    "benchmark": "data/franklin_benchmark.json"
   },
   "gaston": {
     "label": "Gaston County",
     "json": "data/gaston.json",
-    "fips": "37071"
+    "fips": "37071",
+    "benchmark": "data/gaston_benchmark.json"
   },
   "granville": {
     "label": "Granville County",
     "json": "data/granville.json",
-    "fips": "37077"
+    "fips": "37077",
+    "benchmark": "data/granville_benchmark.json"
   },
   "guilford": {
     "label": "Guilford County",
     "json": "data/guilford.json",
-    "fips": "37081"
+    "fips": "37081",
+    "benchmark": "data/guilford_benchmark.json"
   },
   "halifax": {
     "label": "Halifax County",
@@ -153,62 +182,74 @@
   "haywood": {
     "label": "Haywood County",
     "json": "data/haywood.json",
-    "fips": "37087"
+    "fips": "37087",
+    "benchmark": "data/haywood_benchmark.json"
   },
   "henderson": {
     "label": "Henderson County",
     "json": "data/henderson.json",
-    "fips": "37089"
+    "fips": "37089",
+    "benchmark": "data/henderson_benchmark.json"
   },
   "iredell": {
     "label": "Iredell County",
     "json": "data/iredell.json",
-    "fips": "37097"
+    "fips": "37097",
+    "benchmark": "data/iredell_benchmark.json"
   },
   "jackson": {
     "label": "Jackson County",
     "json": "data/jackson.json",
-    "fips": "37099"
+    "fips": "37099",
+    "benchmark": "data/jackson_benchmark.json"
   },
   "johnston": {
     "label": "Johnston County",
     "json": "data/johnston.json",
-    "fips": "37101"
+    "fips": "37101",
+    "benchmark": "data/johnston_benchmark.json"
   },
   "jones": {
     "label": "Jones County",
     "json": "data/jones.json",
-    "fips": "37103"
+    "fips": "37103",
+    "benchmark": "data/jones_benchmark.json"
   },
   "lee": {
     "label": "Lee County",
     "json": "data/lee.json",
-    "fips": "37105"
+    "fips": "37105",
+    "benchmark": "data/lee_benchmark.json"
   },
   "lenoir": {
     "label": "Lenoir County",
     "json": "data/lenoir.json",
-    "fips": "37107"
+    "fips": "37107",
+    "benchmark": "data/lenoir_benchmark.json"
   },
   "lincoln": {
     "label": "Lincoln County",
     "json": "data/lincoln.json",
-    "fips": "37109"
+    "fips": "37109",
+    "benchmark": "data/lincoln_benchmark.json"
   },
   "macon": {
     "label": "Macon County",
     "json": "data/macon.json",
-    "fips": "37113"
+    "fips": "37113",
+    "benchmark": "data/macon_benchmark.json"
   },
   "martin": {
     "label": "Martin County",
     "json": "data/martin.json",
-    "fips": "37117"
+    "fips": "37117",
+    "benchmark": "data/martin_benchmark.json"
   },
   "mcdowell": {
     "label": "McDowell County",
     "json": "data/mcdowell.json",
-    "fips": "37111"
+    "fips": "37111",
+    "benchmark": "data/mcdowell_benchmark.json"
   },
   "mecklenburg": {
     "label": "Mecklenburg County",
@@ -219,141 +260,169 @@
   "moore": {
     "label": "Moore County",
     "json": "data/moore.json",
-    "fips": "37125"
+    "fips": "37125",
+    "benchmark": "data/moore_benchmark.json"
   },
   "nash": {
     "label": "Nash County",
     "json": "data/nash.json",
-    "fips": "37127"
+    "fips": "37127",
+    "benchmark": "data/nash_benchmark.json"
   },
   "new_hanover": {
     "label": "New Hanover County",
     "json": "data/new_hanover.json",
-    "fips": "37129"
+    "fips": "37129",
+    "benchmark": "data/new_hanover_benchmark.json"
   },
   "orange": {
     "label": "Orange County",
     "json": "data/orange.json",
-    "fips": "37135"
+    "fips": "37135",
+    "benchmark": "data/orange_benchmark.json"
   },
   "pamlico": {
     "label": "Pamlico County",
     "json": "data/pamlico.json",
-    "fips": "37137"
+    "fips": "37137",
+    "benchmark": "data/pamlico_benchmark.json"
   },
   "pasquotank": {
     "label": "Pasquotank County",
     "json": "data/pasquotank.json",
-    "fips": "37139"
+    "fips": "37139",
+    "benchmark": "data/pasquotank_benchmark.json"
   },
   "perquimans": {
     "label": "Perquimans County",
     "json": "data/perquimans.json",
-    "fips": "37143"
+    "fips": "37143",
+    "benchmark": "data/perquimans_benchmark.json"
   },
   "person": {
     "label": "Person County",
     "json": "data/person.json",
-    "fips": "37145"
+    "fips": "37145",
+    "benchmark": "data/person_benchmark.json"
   },
   "pitt": {
     "label": "Pitt County",
     "json": "data/pitt.json",
-    "fips": "37147"
+    "fips": "37147",
+    "benchmark": "data/pitt_benchmark.json"
   },
   "polk": {
     "label": "Polk County",
     "json": "data/polk.json",
-    "fips": "37149"
+    "fips": "37149",
+    "benchmark": "data/polk_benchmark.json"
   },
   "randolph": {
     "label": "Randolph County",
     "json": "data/randolph.json",
-    "fips": "37151"
+    "fips": "37151",
+    "benchmark": "data/randolph_benchmark.json"
   },
   "rockingham": {
     "label": "Rockingham County",
     "json": "data/rockingham.json",
-    "fips": "37157"
+    "fips": "37157",
+    "benchmark": "data/rockingham_benchmark.json"
   },
   "rowan": {
     "label": "Rowan County",
     "json": "data/rowan.json",
-    "fips": "37159"
+    "fips": "37159",
+    "benchmark": "data/rowan_benchmark.json"
   },
   "rutherford": {
     "label": "Rutherford County",
     "json": "data/rutherford.json",
-    "fips": "37161"
+    "fips": "37161",
+    "benchmark": "data/rutherford_benchmark.json"
   },
   "stanly": {
     "label": "Stanly County",
     "json": "data/stanly.json",
-    "fips": "37167"
+    "fips": "37167",
+    "benchmark": "data/stanly_benchmark.json"
   },
   "stokes": {
     "label": "Stokes County",
     "json": "data/stokes.json",
-    "fips": "37169"
+    "fips": "37169",
+    "benchmark": "data/stokes_benchmark.json"
   },
   "surry": {
     "label": "Surry County",
     "json": "data/surry.json",
-    "fips": "37171"
+    "fips": "37171",
+    "benchmark": "data/surry_benchmark.json"
   },
   "tyrrell": {
     "label": "Tyrrell County",
     "json": "data/tyrrell.json",
-    "fips": "37177"
+    "fips": "37177",
+    "benchmark": "data/tyrrell_benchmark.json"
   },
   "union": {
     "label": "Union County",
     "json": "data/union.json",
-    "fips": "37179"
+    "fips": "37179",
+    "benchmark": "data/union_benchmark.json"
   },
   "vance": {
     "label": "Vance County",
     "json": "data/vance.json",
-    "fips": "37181"
+    "fips": "37181",
+    "benchmark": "data/vance_benchmark.json"
   },
   "wake": {
     "label": "Wake County",
     "json": "data/wake.json",
-    "fips": "37183"
+    "fips": "37183",
+    "benchmark": "data/wake_benchmark.json"
   },
   "washington": {
     "label": "Washington County",
     "json": "data/washington.json",
-    "fips": "37187"
+    "fips": "37187",
+    "benchmark": "data/washington_benchmark.json"
   },
   "watauga": {
     "label": "Watauga County",
     "json": "data/watauga.json",
-    "fips": "37189"
+    "fips": "37189",
+    "benchmark": "data/watauga_benchmark.json"
   },
   "wayne": {
     "label": "Wayne County",
     "json": "data/wayne.json",
-    "fips": "37191"
+    "fips": "37191",
+    "benchmark": "data/wayne_benchmark.json"
   },
   "wilkes": {
     "label": "Wilkes County",
     "json": "data/wilkes.json",
-    "fips": "37193"
+    "fips": "37193",
+    "benchmark": "data/wilkes_benchmark.json"
   },
   "wilson": {
     "label": "Wilson County",
     "json": "data/wilson.json",
-    "fips": "37195"
+    "fips": "37195",
+    "benchmark": "data/wilson_benchmark.json"
   },
   "yadkin": {
     "label": "Yadkin County",
     "json": "data/yadkin.json",
-    "fips": "37197"
+    "fips": "37197",
+    "benchmark": "data/yadkin_benchmark.json"
   },
   "yancey": {
     "label": "Yancey County",
     "json": "data/yancey.json",
-    "fips": "37199"
+    "fips": "37199",
+    "benchmark": "data/yancey_benchmark.json"
   }
 }
