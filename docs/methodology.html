@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>NC Property Tax · Methodology Notes</title>
+<style>
+  @page { size: Letter; margin: 0.9in 0.85in; }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; font-size: 10.5pt; line-height: 1.5; color: #1c2733; margin: 0; }
+  h1 { font-size: 19pt; margin: 0 0 2pt; color: #1f2a35; }
+  h2 { font-size: 13pt; margin: 22pt 0 6pt; color: #1f2a35; border-bottom: 1.5px solid #1f2a35; padding-bottom: 3pt; }
+  h3 { font-size: 11pt; margin: 14pt 0 4pt; color: #315C8C; }
+  p { margin: 6pt 0; }
+  ul, ol { margin: 6pt 0 8pt; padding-left: 20pt; }
+  li { margin: 3pt 0; }
+  .subtitle { font-size: 11pt; color: #5a6a7a; margin: 0 0 4pt; }
+  .meta { font-size: 9pt; color: #7a8794; margin-top: 2pt; }
+  code { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 9.3pt; background: #f2f4f6; padding: 1px 4px; border-radius: 3px; }
+  .formula { background: #f6f8fa; border: 1px solid #e1e6ea; border-left: 3px solid #315C8C; padding: 8pt 10pt; margin: 8pt 0; font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 9.5pt; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 8pt 0; font-size: 9.3pt; }
+  th, td { border: 1px solid #cfd6dd; padding: 4pt 6pt; text-align: left; vertical-align: top; }
+  th { background: #eef1f4; font-weight: 600; }
+  a { color: #315C8C; text-decoration: none; }
+  .hd { border-bottom: 2.5px solid #1f2a35; padding-bottom: 8pt; margin-bottom: 14pt; }
+  .footer { margin-top: 22pt; font-size: 9pt; color: #7a8794; border-top: 1px solid #cfd6dd; padding-top: 6pt; }
+  @media print { a { color: inherit; } }
+</style>
+</head>
+<body>
+
+<div class="hd">
+  <h1>NC Property Tax Demo — Methodology Notes</h1>
+  <p class="subtitle">Per-property comparison under HB 1089: data sources, benchmark construction, and calculation contract</p>
+  <p class="meta">Version 1.0 · September 2026 · North Carolina fiscal years 2016&#8211;17 through 2025&#8211;26</p>
+</div>
+
+<h2>1. Purpose</h2>
+<p>
+This document describes how the per-property tax comparison on the site is constructed. For a
+selected residential parcel, the page compares two ways of taxing the same assessed value at the
+county level:
+</p>
+<ul>
+  <li><b>What you paid</b> — the county&#8217;s actual FY2025&#8211;26 county rate applied to your parcel&#8217;s assessed value.</li>
+  <li><b>What you could have paid</b> — the rate implied by a benchmark levy that grows the FY2016&#8211;17
+  county-wide levy each year by inflation (U.S. CPI&#8211;U) plus county population growth, capped at the
+  actual FY2025&#8211;26 levy.</li>
+</ul>
+<p>
+The comparison holds the parcel&#8217;s assessed value constant and changes only the county tax rate, so the
+result isolates the effect of <em>rate growth</em> relative to a minimal, status-quo benchmark.
+</p>
+
+<h2>2. Data sources</h2>
+<table>
+  <thead>
+    <tr><th style="width:22%">Input</th><th style="width:30%">Source</th><th>Used for</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FY2016&#8211;17 county-wide levy <code>l_2016</code></td><td>NCDOR LG04 (county/municipal levy and valuation report)</td><td>Benchmark baseline</td></tr>
+    <tr><td>FY2025&#8211;26 county-wide levy <code>l_actual</code></td><td>NCDOR LG04</td><td>Scenario cap; reconciliation</td></tr>
+    <tr><td>FY2025&#8211;26 taxable base <code>x</code></td><td>NCDOR LG04 (total assessed valuation)</td><td>Implying the scenario rate</td></tr>
+    <tr><td>FY2025&#8211;26 county rate <code>r_actual</code></td><td>NCDOR county and municipal tax rate schedule</td><td>&#8220;What you paid&#8221;</td></tr>
+    <tr><td>FY2016&#8211;17 county rate <code>r_2016</code></td><td>NCDOR 2016&#8211;17 tax rate schedule</td><td>Documentation/reconciliation</td></tr>
+    <tr><td>Inflation</td><td>BLS national CPI-U annual averages (all urban consumers)</td><td>Benchmark growth, one component</td></tr>
+    <tr><td>Population</td><td>U.S. Census Bureau Population Estimates Program (vintage estimates)</td><td>Benchmark growth, one component</td></tr>
+    <tr><td>Parcel assessed value <code>V</code></td><td>NC OneMap parcel point service</td><td>&#8220;What you paid&#8221; per property</td></tr>
+  </tbody>
+</table>
+
+<h2>3. Benchmark construction</h2>
+<p>Nine growth transitions compound the FY2016&#8211;17 baseline levy to the FY2025&#8211;26 benchmark ceiling.</p>
+<div class="formula">
+B_2016 = l_2016<br/>
+B_t&nbsp;&nbsp;&nbsp; = B_(t&#8722;1) &#215; (1 + inflation_t + population_t)&#160;&#160;&#160;&#160;for t = 2017, &#8230;, 2025
+</div>
+<p>where <code>inflation_t</code> is the CPI-U annual-average change from year t&#8722;1 to t, and
+<code>population_t</code> is the county&#8217;s annual resident population change from year t&#8722;1 to t.
+Each transition year&#8217;s growth is the sum of those two components.</p>
+
+<h3>3.1 Scenario levy (capped) and scenario rate</h3>
+<div class="formula">
+L_scenario = min(l_actual, B_2025)<br/>
+r_scenario&nbsp;&nbsp; = 100 &#215; L_scenario / x
+</div>
+<p>
+The benchmark never prescribes an increase: if the county&#8217;s actual levy is already <em>below</em> the
+inflation-plus-population ceiling (as in Mecklenburg), the actual levy is retained. The scenario rate is
+that capped levy expressed per <code>$100</code> of current taxable base.
+</p>
+
+<h3>3.2 Per-property comparison</h3>
+<div class="formula">
+tax_actual&nbsp;&nbsp;&nbsp; = V &#215; r_actual / 100<br/>
+tax_scenario&nbsp; = V &#215; r_scenario / 100<br/>
+difference&nbsp;&nbsp; = tax_actual &#8722; tax_scenario
+</div>
+<p><code>V</code> is the parcel&#8217;s assessed value from NC OneMap (ordinary residential parcels only).</p>
+
+<h2>4. Population &amp; inflation detail</h2>
+<h3>4.1 Population</h3>
+<p>
+County annual resident population uses the Census Bureau&#8217;s vintage estimates, mapped so each
+transition year t uses the change between the t&#8722;1 and t population estimates. Because the Census
+retroactively revises population after each decennial benchmark, two vintages are used consistently:
+</p>
+<ul>
+  <li>2016&#8594;2019 transitions: the 2010&#8211;2020 vintage series (<code>co-est2020-alldata.csv</code>), i.e. the 2010-based estimates.</li>
+  <li>2020&#8594;2025 transitions: the 2020&#8211;2025 vintage series (<code>co-est2025-alldata.csv</code>), i.e. the 2025-based (post-benchmark) estimates — including the revised 2020 value used to bridge the two vintages.</li>
+</ul>
+<p>
+This is the only place the two source vintages differ numerically from a single-series projection; the
+methodology is identical for every county.
+</p>
+
+<h3>4.2 Inflation</h3>
+<p>
+Inflation is the national CPI-U annual average (BLS, all items, not seasonally adjusted). The same series
+is used for every county. The annual averages underlying the transitions are:
+</p>
+<table>
+  <thead><tr><th>Year</th><th>CPI-U annual avg.</th><th>Transition into year</th><th>Inflation change</th></tr></thead>
+  <tbody>
+    <tr><td>2016</td><td>240.007</td><td>&mdash;</td><td>&mdash;</td></tr>
+    <tr><td>2017</td><td>245.120</td><td>2017</td><td>0.021304</td></tr>
+    <tr><td>2018</td><td>251.107</td><td>2018</td><td>0.024425</td></tr>
+    <tr><td>2019</td><td>255.657</td><td>2019</td><td>0.018120</td></tr>
+    <tr><td>2020</td><td>258.811</td><td>2020</td><td>0.012337</td></tr>
+    <tr><td>2021</td><td>270.970</td><td>2021</td><td>0.046980</td></tr>
+    <tr><td>2022</td><td>292.655</td><td>2022</td><td>0.080027</td></tr>
+    <tr><td>2023</td><td>304.702</td><td>2023</td><td>0.041165</td></tr>
+    <tr><td>2024</td><td>313.689</td><td>2024</td><td>0.029494</td></tr>
+    <tr><td>2025</td><td>321.943</td><td>2025</td><td>0.026313</td></tr>
+  </tbody>
+</table>
+
+<h2>5. Reconciliation &amp; data notes</h2>
+<ul>
+  <li><b>Rate/base/levy reconciliation.</b> Each county file records
+  <code>rate_reconciliation_pct = 100 &#215; (x &#215; r_actual / 100 &#8722; l_actual) / l_actual</code>, the
+  gap between the reported levy and the rate &#215; base. Most counties reconcile within a few tenths of a
+  percent; a small number differ by more (typically from mid-year reappraisals or tax-list year offsets in
+  the underlying NCDOR records). The reconciliation is diagnostic metadata and does not affect the output,
+  since the scenario rate is computed directly from the reported levy and base.</li>
+  <li><b>Parcel values.</b> NC OneMap parcel data is a live snapshot and may predate the 2025 tax year. The
+  2025 county rate and levy figures are the official FY2025&#8211;26 records.</li>
+  <li><b>Residential only.</b> Relief/exemption cases and non-residential parcels are out of scope.</li>
+  <li><b>Assumptions.</b> The ceiling compounds from the 2016 baseline; a year below the ceiling does not
+  ratchet it down; there is no separate new-construction allowance or other override.</li>
+</ul>
+
+<h2>6. Interpretation</h2>
+<p>
+A county at or below the benchmark (actual levy &#8804; ceiling) means current county property tax revenue
+has not grown faster than inflation-plus-population since 2016; the per-property difference is effectively
+zero and the site says so explicitly. A county above the benchmark shows the dollars a property at that
+assessed value would have saved had the county tied its levy growth to the benchmark rather than its
+actual rate path.
+</p>
+
+<div class="footer">
+  Repo: github.com/mkale-jlf/property-tax-demo · Calculation contract implemented in <code>calc.js</code> and covered by
+  <code>test/calc.test.mjs</code> (17 tests).
+</div>
+
+</body>
+</html>
