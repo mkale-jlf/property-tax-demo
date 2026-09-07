@@ -1,0 +1,162 @@
+{
+  "place": "Alamance",
+  "label": "Alamance County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 61622266,
+  "difference_pct": 6.85,
+  "actual_property_tax_total": 961839003,
+  "benchmark_property_tax_total": 900216737,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 961839003,
+      "share": 0.4274
+    },
+    {
+      "area": "Sales taxes",
+      "total": 368679746,
+      "share": 0.1638
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 343684941,
+      "share": 0.1527
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 237924291,
+      "share": 0.1057
+    },
+    {
+      "area": "Sales & services",
+      "total": 189659006,
+      "share": 0.0843
+    },
+    {
+      "area": "Other taxes",
+      "total": 89072982,
+      "share": 0.0396
+    },
+    {
+      "area": "Other",
+      "total": 59524849,
+      "share": 0.0265
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 756711555,
+      "share": 0.3577
+    },
+    {
+      "area": "Public safety",
+      "total": 511317549,
+      "share": 0.2417
+    },
+    {
+      "area": "Human services",
+      "total": 361527351,
+      "share": 0.1709
+    },
+    {
+      "area": "General government",
+      "total": 204899586,
+      "share": 0.0968
+    },
+    {
+      "area": "Debt service",
+      "total": 151706614,
+      "share": 0.0717
+    },
+    {
+      "area": "Other",
+      "total": 129544495,
+      "share": 0.0612
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 76525761,
+      "benchmark": 76525761,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 77537496,
+      "benchmark": 77217867,
+      "population_growth": 0.0103,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.009
+    },
+    {
+      "year": 2018,
+      "actual": 79987945,
+      "benchmark": 79407650,
+      "population_growth": 0.0216,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0284
+    },
+    {
+      "year": 2019,
+      "actual": 84469126,
+      "benchmark": 82239155,
+      "population_growth": 0.02,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0357
+    },
+    {
+      "year": 2020,
+      "actual": 97871189,
+      "benchmark": 86440069,
+      "population_growth": 0.0222,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0511
+    },
+    {
+      "year": 2021,
+      "actual": 101980008,
+      "benchmark": 88899781,
+      "population_growth": 0.0142,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0285
+    },
+    {
+      "year": 2022,
+      "actual": 103813480,
+      "benchmark": 90549172,
+      "population_growth": 0.013,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0186
+    },
+    {
+      "year": 2023,
+      "actual": 105855601,
+      "benchmark": 97297803,
+      "population_growth": 0.0166,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0745
+    },
+    {
+      "year": 2024,
+      "actual": 110908239,
+      "benchmark": 108050675,
+      "population_growth": 0.017,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1105
+    },
+    {
+      "year": 2025,
+      "actual": 122890158,
+      "benchmark": 113588804,
+      "population_growth": 0.0176,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0513
+    }
+  ]
+}

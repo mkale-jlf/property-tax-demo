@@ -1,0 +1,162 @@
+{
+  "place": "Person",
+  "label": "Person County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 18355465,
+  "difference_pct": 5.36,
+  "actual_property_tax_total": 360688010,
+  "benchmark_property_tax_total": 342332545,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 360688010,
+      "share": 0.4667
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 146738801,
+      "share": 0.1899
+    },
+    {
+      "area": "Sales taxes",
+      "total": 103181779,
+      "share": 0.1335
+    },
+    {
+      "area": "Sales & services",
+      "total": 66811285,
+      "share": 0.0864
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 56526875,
+      "share": 0.0731
+    },
+    {
+      "area": "Other",
+      "total": 23291636,
+      "share": 0.0301
+    },
+    {
+      "area": "Other taxes",
+      "total": 15617189,
+      "share": 0.0202
+    }
+  ],
+  "spending": [
+    {
+      "area": "Human services",
+      "total": 173161483,
+      "share": 0.2395
+    },
+    {
+      "area": "Public safety",
+      "total": 170634535,
+      "share": 0.236
+    },
+    {
+      "area": "Education",
+      "total": 162257312,
+      "share": 0.2244
+    },
+    {
+      "area": "General government",
+      "total": 111899781,
+      "share": 0.1548
+    },
+    {
+      "area": "Other",
+      "total": 79265805,
+      "share": 0.1096
+    },
+    {
+      "area": "Debt service",
+      "total": 25848346,
+      "share": 0.0357
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 31276307,
+      "benchmark": 31276307,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 32078642,
+      "benchmark": 31346708,
+      "population_growth": 0.0035,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0023
+    },
+    {
+      "year": 2018,
+      "actual": 32141941,
+      "benchmark": 31616066,
+      "population_growth": 0.0018,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0086
+    },
+    {
+      "year": 2019,
+      "actual": 33051014,
+      "benchmark": 32096889,
+      "population_growth": -0.0004,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0152
+    },
+    {
+      "year": 2020,
+      "actual": 34966925,
+      "benchmark": 33134189,
+      "population_growth": 0.0035,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0323
+    },
+    {
+      "year": 2021,
+      "actual": 35827112,
+      "benchmark": 33678628,
+      "population_growth": 0.0022,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0164
+    },
+    {
+      "year": 2022,
+      "actual": 38172626,
+      "benchmark": 33863379,
+      "population_growth": -0.0001,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0055
+    },
+    {
+      "year": 2023,
+      "actual": 39852732,
+      "benchmark": 35618479,
+      "population_growth": -0.0061,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0518
+    },
+    {
+      "year": 2024,
+      "actual": 40715507,
+      "benchmark": 39026310,
+      "population_growth": 0.0022,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0957
+    },
+    {
+      "year": 2025,
+      "actual": 42605204,
+      "benchmark": 40675590,
+      "population_growth": 0.0086,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0423
+    }
+  ]
+}

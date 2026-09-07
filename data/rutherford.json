@@ -1,0 +1,162 @@
+{
+  "place": "Rutherford",
+  "label": "Rutherford County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 42652649,
+  "difference_pct": 10.32,
+  "actual_property_tax_total": 456081085,
+  "benchmark_property_tax_total": 413428436,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 456081085,
+      "share": 0.4264
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 204858621,
+      "share": 0.1915
+    },
+    {
+      "area": "Sales taxes",
+      "total": 171155136,
+      "share": 0.16
+    },
+    {
+      "area": "Sales & services",
+      "total": 107339991,
+      "share": 0.1004
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 49146338,
+      "share": 0.046
+    },
+    {
+      "area": "Other taxes",
+      "total": 42048576,
+      "share": 0.0393
+    },
+    {
+      "area": "Other",
+      "total": 38876926,
+      "share": 0.0364
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 276188673,
+      "share": 0.276
+    },
+    {
+      "area": "Education",
+      "total": 251120168,
+      "share": 0.251
+    },
+    {
+      "area": "Human services",
+      "total": 159213239,
+      "share": 0.1591
+    },
+    {
+      "area": "Other",
+      "total": 149642685,
+      "share": 0.1496
+    },
+    {
+      "area": "General government",
+      "total": 96351107,
+      "share": 0.0963
+    },
+    {
+      "area": "Debt service",
+      "total": 68022946,
+      "share": 0.068
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 38695915,
+      "benchmark": 38695915,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 39129528,
+      "benchmark": 38427232,
+      "population_growth": -0.0057,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0069
+    },
+    {
+      "year": 2018,
+      "actual": 41433136,
+      "benchmark": 38446961,
+      "population_growth": -0.0063,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0005
+    },
+    {
+      "year": 2019,
+      "actual": 42970981,
+      "benchmark": 39117768,
+      "population_growth": 0.0018,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0174
+    },
+    {
+      "year": 2020,
+      "actual": 47258948,
+      "benchmark": 40007874,
+      "population_growth": -0.0061,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0228
+    },
+    {
+      "year": 2021,
+      "actual": 48368067,
+      "benchmark": 40605246,
+      "population_growth": 0.0007,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0149
+    },
+    {
+      "year": 2022,
+      "actual": 48602741,
+      "benchmark": 40462898,
+      "population_growth": -0.009,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0035
+    },
+    {
+      "year": 2023,
+      "actual": 48629146,
+      "benchmark": 42426836,
+      "population_growth": -0.0094,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0485
+    },
+    {
+      "year": 2024,
+      "actual": 50134631,
+      "benchmark": 46640115,
+      "population_growth": 0.0058,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0993
+    },
+    {
+      "year": 2025,
+      "actual": 50857992,
+      "benchmark": 48597591,
+      "population_growth": 0.0083,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.042
+    }
+  ]
+}

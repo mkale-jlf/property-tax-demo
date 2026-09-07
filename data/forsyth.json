@@ -1,0 +1,162 @@
+{
+  "place": "Forsyth",
+  "label": "Forsyth County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 81979382,
+  "difference_pct": 2.9,
+  "actual_property_tax_total": 2906866430,
+  "benchmark_property_tax_total": 2824887048,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 2906866430,
+      "share": 0.502
+    },
+    {
+      "area": "Sales taxes",
+      "total": 862527234,
+      "share": 0.149
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 796685441,
+      "share": 0.1376
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 744632857,
+      "share": 0.1286
+    },
+    {
+      "area": "Sales & services",
+      "total": 231413732,
+      "share": 0.04
+    },
+    {
+      "area": "Other",
+      "total": 198201220,
+      "share": 0.0342
+    },
+    {
+      "area": "Other taxes",
+      "total": 49725263,
+      "share": 0.0086
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 1949127214,
+      "share": 0.3528
+    },
+    {
+      "area": "Public safety",
+      "total": 1095057417,
+      "share": 0.1982
+    },
+    {
+      "area": "Human services",
+      "total": 815666879,
+      "share": 0.1476
+    },
+    {
+      "area": "Debt service",
+      "total": 741254921,
+      "share": 0.1342
+    },
+    {
+      "area": "Other",
+      "total": 494085801,
+      "share": 0.0894
+    },
+    {
+      "area": "General government",
+      "total": 430130322,
+      "share": 0.0778
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 249097205,
+      "benchmark": 249097205,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 254356985,
+      "benchmark": 250503727,
+      "population_growth": 0.0069,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0056
+    },
+    {
+      "year": 2018,
+      "actual": 267708214,
+      "benchmark": 254925650,
+      "population_growth": 0.0109,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0177
+    },
+    {
+      "year": 2019,
+      "actual": 275322246,
+      "benchmark": 261651050,
+      "population_growth": 0.0107,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0264
+    },
+    {
+      "year": 2020,
+      "actual": 291138752,
+      "benchmark": 271578278,
+      "population_growth": 0.0091,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0379
+    },
+    {
+      "year": 2021,
+      "actual": 297548508,
+      "benchmark": 277290857,
+      "population_growth": 0.0068,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.021
+    },
+    {
+      "year": 2022,
+      "actual": 305118758,
+      "benchmark": 280959797,
+      "population_growth": 0.0077,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0132
+    },
+    {
+      "year": 2023,
+      "actual": 313731638,
+      "benchmark": 301001944,
+      "population_growth": 0.0134,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0713
+    },
+    {
+      "year": 2024,
+      "actual": 322536393,
+      "benchmark": 331816031,
+      "population_growth": 0.0089,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1024
+    },
+    {
+      "year": 2025,
+      "actual": 330307731,
+      "benchmark": 346062509,
+      "population_growth": 0.0093,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0429
+    }
+  ]
+}

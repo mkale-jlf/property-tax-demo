@@ -1,0 +1,162 @@
+{
+  "place": "Durham",
+  "label": "Durham County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 180463462,
+  "difference_pct": 5.92,
+  "actual_property_tax_total": 3229465036,
+  "benchmark_property_tax_total": 3049001574,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 3229465036,
+      "share": 0.5496
+    },
+    {
+      "area": "Sales taxes",
+      "total": 993799969,
+      "share": 0.1691
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 642166369,
+      "share": 0.1093
+    },
+    {
+      "area": "Sales & services",
+      "total": 497535254,
+      "share": 0.0847
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 290112285,
+      "share": 0.0494
+    },
+    {
+      "area": "Other taxes",
+      "total": 148606834,
+      "share": 0.0253
+    },
+    {
+      "area": "Other",
+      "total": 74527137,
+      "share": 0.0127
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 1791284469,
+      "share": 0.3485
+    },
+    {
+      "area": "Human services",
+      "total": 1012917118,
+      "share": 0.1971
+    },
+    {
+      "area": "Public safety",
+      "total": 814378003,
+      "share": 0.1585
+    },
+    {
+      "area": "General government",
+      "total": 732799777,
+      "share": 0.1426
+    },
+    {
+      "area": "Other",
+      "total": 483880867,
+      "share": 0.0941
+    },
+    {
+      "area": "Debt service",
+      "total": 304377230,
+      "share": 0.0592
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 259829869,
+      "benchmark": 259829869,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 263158665,
+      "benchmark": 264145985,
+      "population_growth": 0.0179,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0166
+    },
+    {
+      "year": 2018,
+      "actual": 278723886,
+      "benchmark": 271797411,
+      "population_growth": 0.0222,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.029
+    },
+    {
+      "year": 2019,
+      "actual": 291821258,
+      "benchmark": 279835843,
+      "population_growth": 0.0139,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0296
+    },
+    {
+      "year": 2020,
+      "actual": 315300961,
+      "benchmark": 292644966,
+      "population_growth": 0.0169,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0458
+    },
+    {
+      "year": 2021,
+      "actual": 325222809,
+      "benchmark": 302780758,
+      "population_growth": 0.0204,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0346
+    },
+    {
+      "year": 2022,
+      "actual": 343369567,
+      "benchmark": 305045189,
+      "population_growth": 0.0019,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0075
+    },
+    {
+      "year": 2023,
+      "actual": 358662059,
+      "benchmark": 328938303,
+      "population_growth": 0.0204,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0783
+    },
+    {
+      "year": 2024,
+      "actual": 364837222,
+      "benchmark": 363413735,
+      "population_growth": 0.0113,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1048
+    },
+    {
+      "year": 2025,
+      "actual": 428538740,
+      "benchmark": 380569515,
+      "population_growth": 0.0136,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0472
+    }
+  ]
+}

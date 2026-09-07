@@ -1,0 +1,162 @@
+{
+  "place": "Pamlico",
+  "label": "Pamlico County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 7244896,
+  "difference_pct": 6.28,
+  "actual_property_tax_total": 122654022,
+  "benchmark_property_tax_total": 115409126,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 122654022,
+      "share": 0.4035
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 98043822,
+      "share": 0.3225
+    },
+    {
+      "area": "Sales taxes",
+      "total": 35730083,
+      "share": 0.1175
+    },
+    {
+      "area": "Sales & services",
+      "total": 29798371,
+      "share": 0.098
+    },
+    {
+      "area": "Other",
+      "total": 7836317,
+      "share": 0.0258
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 6868263,
+      "share": 0.0226
+    },
+    {
+      "area": "Other taxes",
+      "total": 3055208,
+      "share": 0.0101
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 76774110,
+      "share": 0.2572
+    },
+    {
+      "area": "Education",
+      "total": 73002132,
+      "share": 0.2445
+    },
+    {
+      "area": "Other",
+      "total": 56774628,
+      "share": 0.1902
+    },
+    {
+      "area": "Human services",
+      "total": 46376014,
+      "share": 0.1553
+    },
+    {
+      "area": "General government",
+      "total": 31110676,
+      "share": 0.1042
+    },
+    {
+      "area": "Debt service",
+      "total": 14513860,
+      "share": 0.0486
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 10829828,
+      "benchmark": 10829828,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 11185847,
+      "benchmark": 10734287,
+      "population_growth": -0.0076,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0088
+    },
+    {
+      "year": 2018,
+      "actual": 11320867,
+      "benchmark": 10849714,
+      "population_growth": 0.004,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0108
+    },
+    {
+      "year": 2019,
+      "actual": 11562456,
+      "benchmark": 10893495,
+      "population_growth": -0.0116,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.004
+    },
+    {
+      "year": 2020,
+      "actual": 11080393,
+      "benchmark": 11184187,
+      "population_growth": -0.0022,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0267
+    },
+    {
+      "year": 2021,
+      "actual": 12182679,
+      "benchmark": 11179663,
+      "population_growth": -0.0147,
+      "inflation_growth": 0.0143,
+      "allowed_growth": -0.0004
+    },
+    {
+      "year": 2022,
+      "actual": 13103187,
+      "benchmark": 11207945,
+      "population_growth": -0.003,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0025
+    },
+    {
+      "year": 2023,
+      "actual": 13249876,
+      "benchmark": 11796536,
+      "population_growth": -0.0054,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0525
+    },
+    {
+      "year": 2024,
+      "actual": 13711912,
+      "benchmark": 12958638,
+      "population_growth": 0.005,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0985
+    },
+    {
+      "year": 2025,
+      "actual": 14426977,
+      "benchmark": 13774833,
+      "population_growth": 0.0294,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.063
+    }
+  ]
+}

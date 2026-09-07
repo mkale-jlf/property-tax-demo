@@ -1,0 +1,162 @@
+{
+  "place": "Brunswick",
+  "label": "Brunswick County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 0,
+  "difference_dollars": -20613822,
+  "difference_pct": -1.4,
+  "actual_property_tax_total": 1454567403,
+  "benchmark_property_tax_total": 1475181225,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 1454567403,
+      "share": 0.4108
+    },
+    {
+      "area": "Sales & services",
+      "total": 928676618,
+      "share": 0.2623
+    },
+    {
+      "area": "Sales taxes",
+      "total": 340003756,
+      "share": 0.096
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 332606790,
+      "share": 0.0939
+    },
+    {
+      "area": "Other",
+      "total": 239335345,
+      "share": 0.0676
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 159642946,
+      "share": 0.0451
+    },
+    {
+      "area": "Other taxes",
+      "total": 86307386,
+      "share": 0.0244
+    }
+  ],
+  "spending": [
+    {
+      "area": "Other",
+      "total": 724401792,
+      "share": 0.243
+    },
+    {
+      "area": "Education",
+      "total": 722639452,
+      "share": 0.2424
+    },
+    {
+      "area": "Public safety",
+      "total": 545281029,
+      "share": 0.1829
+    },
+    {
+      "area": "Debt service",
+      "total": 352660845,
+      "share": 0.1183
+    },
+    {
+      "area": "General government",
+      "total": 342509550,
+      "share": 0.1149
+    },
+    {
+      "area": "Human services",
+      "total": 294088664,
+      "share": 0.0986
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 116180734,
+      "benchmark": 116180734,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 119820026,
+      "benchmark": 118944093,
+      "population_growth": 0.0251,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0238
+    },
+    {
+      "year": 2018,
+      "actual": 124318739,
+      "benchmark": 122873549,
+      "population_growth": 0.0262,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.033
+    },
+    {
+      "year": 2019,
+      "actual": 128233886,
+      "benchmark": 128277496,
+      "population_growth": 0.0283,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.044
+    },
+    {
+      "year": 2020,
+      "actual": 142572371,
+      "benchmark": 136370285,
+      "population_growth": 0.0342,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0631
+    },
+    {
+      "year": 2021,
+      "actual": 150243480,
+      "benchmark": 142969505,
+      "population_growth": 0.0341,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0484
+    },
+    {
+      "year": 2022,
+      "actual": 154831528,
+      "benchmark": 149109228,
+      "population_growth": 0.0374,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0429
+    },
+    {
+      "year": 2023,
+      "actual": 161239315,
+      "benchmark": 165148651,
+      "population_growth": 0.0497,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.1076
+    },
+    {
+      "year": 2024,
+      "actual": 174202755,
+      "benchmark": 189607051,
+      "population_growth": 0.0546,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1481
+    },
+    {
+      "year": 2025,
+      "actual": 182924569,
+      "benchmark": 205700633,
+      "population_growth": 0.0513,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0849
+    }
+  ]
+}

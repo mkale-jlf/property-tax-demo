@@ -1,0 +1,162 @@
+{
+  "place": "Caldwell",
+  "label": "Caldwell County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 60563904,
+  "difference_pct": 12.8,
+  "actual_property_tax_total": 533609705,
+  "benchmark_property_tax_total": 473045801,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 533609705,
+      "share": 0.4754
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 237930347,
+      "share": 0.212
+    },
+    {
+      "area": "Sales taxes",
+      "total": 139957839,
+      "share": 0.1247
+    },
+    {
+      "area": "Sales & services",
+      "total": 108938307,
+      "share": 0.097
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 66038568,
+      "share": 0.0588
+    },
+    {
+      "area": "Other",
+      "total": 25514784,
+      "share": 0.0227
+    },
+    {
+      "area": "Other taxes",
+      "total": 10527073,
+      "share": 0.0094
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 287870625,
+      "share": 0.2616
+    },
+    {
+      "area": "Education",
+      "total": 246226978,
+      "share": 0.2237
+    },
+    {
+      "area": "Human services",
+      "total": 210443478,
+      "share": 0.1912
+    },
+    {
+      "area": "Other",
+      "total": 198796105,
+      "share": 0.1806
+    },
+    {
+      "area": "General government",
+      "total": 96459347,
+      "share": 0.0876
+    },
+    {
+      "area": "Debt service",
+      "total": 60719612,
+      "share": 0.0552
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 43648495,
+      "benchmark": 43648495,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 46110069,
+      "benchmark": 43504036,
+      "population_growth": -0.002,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0033
+    },
+    {
+      "year": 2018,
+      "actual": 46575273,
+      "benchmark": 43825104,
+      "population_growth": 0.0006,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0074
+    },
+    {
+      "year": 2019,
+      "actual": 49201039,
+      "benchmark": 44372536,
+      "population_growth": -0.0032,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0125
+    },
+    {
+      "year": 2020,
+      "actual": 53398738,
+      "benchmark": 45522363,
+      "population_growth": -0.0029,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0259
+    },
+    {
+      "year": 2021,
+      "actual": 53794397,
+      "benchmark": 46283396,
+      "population_growth": 0.0025,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0167
+    },
+    {
+      "year": 2022,
+      "actual": 58166033,
+      "benchmark": 46478420,
+      "population_growth": -0.0013,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0042
+    },
+    {
+      "year": 2023,
+      "actual": 59018289,
+      "benchmark": 49438101,
+      "population_growth": 0.0058,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0637
+    },
+    {
+      "year": 2024,
+      "actual": 61194454,
+      "benchmark": 53919362,
+      "population_growth": -0.0029,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0906
+    },
+    {
+      "year": 2025,
+      "actual": 62502918,
+      "benchmark": 56053989,
+      "population_growth": 0.006,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0396
+    }
+  ]
+}

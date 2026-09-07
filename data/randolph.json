@@ -1,0 +1,162 @@
+{
+  "place": "Randolph",
+  "label": "Randolph County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 18134207,
+  "difference_pct": 2.42,
+  "actual_property_tax_total": 768697304,
+  "benchmark_property_tax_total": 750563097,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 768697304,
+      "share": 0.4058
+    },
+    {
+      "area": "Sales taxes",
+      "total": 347874164,
+      "share": 0.1837
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 263033518,
+      "share": 0.1389
+    },
+    {
+      "area": "Other taxes",
+      "total": 170124833,
+      "share": 0.0898
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 154281750,
+      "share": 0.0815
+    },
+    {
+      "area": "Sales & services",
+      "total": 133692841,
+      "share": 0.0706
+    },
+    {
+      "area": "Other",
+      "total": 56375295,
+      "share": 0.0298
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 558660248,
+      "share": 0.3135
+    },
+    {
+      "area": "Education",
+      "total": 487636267,
+      "share": 0.2736
+    },
+    {
+      "area": "Human services",
+      "total": 292819026,
+      "share": 0.1643
+    },
+    {
+      "area": "Debt service",
+      "total": 154477672,
+      "share": 0.0867
+    },
+    {
+      "area": "General government",
+      "total": 152887322,
+      "share": 0.0858
+    },
+    {
+      "area": "Other",
+      "total": 135733553,
+      "share": 0.0762
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 68646444,
+      "benchmark": 68646444,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 69524783,
+      "benchmark": 68532444,
+      "population_growth": -0.0004,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0017
+    },
+    {
+      "year": 2018,
+      "actual": 69880715,
+      "benchmark": 69247707,
+      "population_growth": 0.0036,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0104
+    },
+    {
+      "year": 2019,
+      "actual": 71797011,
+      "benchmark": 70339861,
+      "population_growth": 0.0001,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0158
+    },
+    {
+      "year": 2020,
+      "actual": 73880620,
+      "benchmark": 72519871,
+      "population_growth": 0.0022,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.031
+    },
+    {
+      "year": 2021,
+      "actual": 76312856,
+      "benchmark": 73783420,
+      "population_growth": 0.0032,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0174
+    },
+    {
+      "year": 2022,
+      "actual": 77745763,
+      "benchmark": 74259285,
+      "population_growth": 0.0009,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0064
+    },
+    {
+      "year": 2023,
+      "actual": 80526711,
+      "benchmark": 77792638,
+      "population_growth": -0.0103,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0476
+    },
+    {
+      "year": 2024,
+      "actual": 86644493,
+      "benchmark": 85675562,
+      "population_growth": 0.0078,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1013
+    },
+    {
+      "year": 2025,
+      "actual": 93737908,
+      "benchmark": 89765866,
+      "population_growth": 0.0141,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0477
+    }
+  ]
+}

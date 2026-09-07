@@ -1,0 +1,162 @@
+{
+  "place": "Tyrrell",
+  "label": "Tyrrell County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 5729511,
+  "difference_pct": 15.14,
+  "actual_property_tax_total": 43573968,
+  "benchmark_property_tax_total": 37844457,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 43573968,
+      "share": 0.4137
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 25722645,
+      "share": 0.2442
+    },
+    {
+      "area": "Sales & services",
+      "total": 17079962,
+      "share": 0.1622
+    },
+    {
+      "area": "Sales taxes",
+      "total": 9369156,
+      "share": 0.0889
+    },
+    {
+      "area": "Other",
+      "total": 8421356,
+      "share": 0.08
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 680747,
+      "share": 0.0065
+    },
+    {
+      "area": "Other taxes",
+      "total": 483262,
+      "share": 0.0046
+    }
+  ],
+  "spending": [
+    {
+      "area": "Other",
+      "total": 27340399,
+      "share": 0.272
+    },
+    {
+      "area": "Human services",
+      "total": 23418252,
+      "share": 0.233
+    },
+    {
+      "area": "General government",
+      "total": 18848147,
+      "share": 0.1875
+    },
+    {
+      "area": "Public safety",
+      "total": 17379702,
+      "share": 0.1729
+    },
+    {
+      "area": "Education",
+      "total": 9400901,
+      "share": 0.0935
+    },
+    {
+      "area": "Debt service",
+      "total": 4117501,
+      "share": 0.041
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 3780550,
+      "benchmark": 3780550,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 3755680,
+      "benchmark": 3807999,
+      "population_growth": 0.0085,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0073
+    },
+    {
+      "year": 2018,
+      "actual": 3905286,
+      "benchmark": 3716418,
+      "population_growth": -0.0308,
+      "inflation_growth": 0.0068,
+      "allowed_growth": -0.024
+    },
+    {
+      "year": 2019,
+      "actual": 4044217,
+      "benchmark": 3891864,
+      "population_growth": 0.0316,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0472
+    },
+    {
+      "year": 2020,
+      "actual": 4249538,
+      "benchmark": 3930537,
+      "population_growth": -0.0189,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0099
+    },
+    {
+      "year": 2021,
+      "actual": 4571542,
+      "benchmark": 3611834,
+      "population_growth": -0.0953,
+      "inflation_growth": 0.0143,
+      "allowed_growth": -0.0811
+    },
+    {
+      "year": 2022,
+      "actual": 4822977,
+      "benchmark": 3283606,
+      "population_growth": -0.0964,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0909
+    },
+    {
+      "year": 2023,
+      "actual": 4817676,
+      "benchmark": 3559266,
+      "population_growth": 0.0261,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.084
+    },
+    {
+      "year": 2024,
+      "actual": 4770245,
+      "benchmark": 4035204,
+      "population_growth": 0.0402,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1337
+    },
+    {
+      "year": 2025,
+      "actual": 4856257,
+      "benchmark": 4227179,
+      "population_growth": 0.0139,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0476
+    }
+  ]
+}

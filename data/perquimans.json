@@ -1,0 +1,162 @@
+{
+  "place": "Perquimans",
+  "label": "Perquimans County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 7407576,
+  "difference_pct": 8.46,
+  "actual_property_tax_total": 94997932,
+  "benchmark_property_tax_total": 87590356,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 94997932,
+      "share": 0.3452
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 76976352,
+      "share": 0.2797
+    },
+    {
+      "area": "Sales & services",
+      "total": 49582532,
+      "share": 0.1802
+    },
+    {
+      "area": "Sales taxes",
+      "total": 29336571,
+      "share": 0.1066
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 13536323,
+      "share": 0.0492
+    },
+    {
+      "area": "Other",
+      "total": 6903283,
+      "share": 0.0251
+    },
+    {
+      "area": "Other taxes",
+      "total": 3863299,
+      "share": 0.014
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 65969133,
+      "share": 0.2674
+    },
+    {
+      "area": "Other",
+      "total": 57942414,
+      "share": 0.2349
+    },
+    {
+      "area": "Education",
+      "total": 56679649,
+      "share": 0.2297
+    },
+    {
+      "area": "General government",
+      "total": 26257865,
+      "share": 0.1064
+    },
+    {
+      "area": "Human services",
+      "total": 25992566,
+      "share": 0.1054
+    },
+    {
+      "area": "Debt service",
+      "total": 13879271,
+      "share": 0.0563
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 8205696,
+      "benchmark": 8205696,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 8189224,
+      "benchmark": 8130807,
+      "population_growth": -0.0079,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0091
+    },
+    {
+      "year": 2018,
+      "actual": 8648390,
+      "benchmark": 8108712,
+      "population_growth": -0.0095,
+      "inflation_growth": 0.0068,
+      "allowed_growth": -0.0027
+    },
+    {
+      "year": 2019,
+      "actual": 8741309,
+      "benchmark": 8191109,
+      "population_growth": -0.0055,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0102
+    },
+    {
+      "year": 2020,
+      "actual": 9123710,
+      "benchmark": 8391603,
+      "population_growth": -0.0044,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0245
+    },
+    {
+      "year": 2021,
+      "actual": 9560513,
+      "benchmark": 8562185,
+      "population_growth": 0.0061,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0203
+    },
+    {
+      "year": 2022,
+      "actual": 9892964,
+      "benchmark": 8551984,
+      "population_growth": -0.0067,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0012
+    },
+    {
+      "year": 2023,
+      "actual": 10237344,
+      "benchmark": 9032626,
+      "population_growth": -0.0017,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0562
+    },
+    {
+      "year": 2024,
+      "actual": 10932758,
+      "benchmark": 9966438,
+      "population_growth": 0.0099,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1034
+    },
+    {
+      "year": 2025,
+      "actual": 11466024,
+      "benchmark": 10449194,
+      "population_growth": 0.0148,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0484
+    }
+  ]
+}

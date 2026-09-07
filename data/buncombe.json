@@ -1,0 +1,162 @@
+{
+  "place": "Buncombe",
+  "label": "Buncombe County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 144475086,
+  "difference_pct": 7.03,
+  "actual_property_tax_total": 2199835997,
+  "benchmark_property_tax_total": 2055360911,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 2199835997,
+      "share": 0.4156
+    },
+    {
+      "area": "Sales taxes",
+      "total": 1032641279,
+      "share": 0.1951
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 700501777,
+      "share": 0.1323
+    },
+    {
+      "area": "Other taxes",
+      "total": 644726831,
+      "share": 0.1218
+    },
+    {
+      "area": "Sales & services",
+      "total": 304997578,
+      "share": 0.0576
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 262389515,
+      "share": 0.0496
+    },
+    {
+      "area": "Other",
+      "total": 148345850,
+      "share": 0.028
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 1493856469,
+      "share": 0.2777
+    },
+    {
+      "area": "Public safety",
+      "total": 1137046982,
+      "share": 0.2114
+    },
+    {
+      "area": "Human services",
+      "total": 978172321,
+      "share": 0.1819
+    },
+    {
+      "area": "Other",
+      "total": 675826620,
+      "share": 0.1256
+    },
+    {
+      "area": "General government",
+      "total": 568454888,
+      "share": 0.1057
+    },
+    {
+      "area": "Debt service",
+      "total": 525317240,
+      "share": 0.0977
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 179373964,
+      "benchmark": 179373964,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 184360096,
+      "benchmark": 181784853,
+      "population_growth": 0.0147,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0134
+    },
+    {
+      "year": 2018,
+      "actual": 196315114,
+      "benchmark": 185858204,
+      "population_growth": 0.0156,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0224
+    },
+    {
+      "year": 2019,
+      "actual": 199066692,
+      "benchmark": 190383872,
+      "population_growth": 0.0087,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0244
+    },
+    {
+      "year": 2020,
+      "actual": 207126306,
+      "benchmark": 197681184,
+      "population_growth": 0.0095,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0383
+    },
+    {
+      "year": 2021,
+      "actual": 220188921,
+      "benchmark": 202381443,
+      "population_growth": 0.0095,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0238
+    },
+    {
+      "year": 2022,
+      "actual": 236321758,
+      "benchmark": 205451858,
+      "population_growth": 0.0096,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0152
+    },
+    {
+      "year": 2023,
+      "actual": 244481587,
+      "benchmark": 219277519,
+      "population_growth": 0.0094,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0673
+    },
+    {
+      "year": 2024,
+      "actual": 257239338,
+      "benchmark": 241194206,
+      "population_growth": 0.0064,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0999
+    },
+    {
+      "year": 2025,
+      "actual": 275362221,
+      "benchmark": 251973807,
+      "population_growth": 0.0111,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0447
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "place": "Cumberland",
+  "label": "Cumberland County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 14315625,
+  "difference_pct": 0.72,
+  "actual_property_tax_total": 1989050998,
+  "benchmark_property_tax_total": 1974735373,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 1989050998,
+      "share": 0.4607
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 917039502,
+      "share": 0.2124
+    },
+    {
+      "area": "Sales taxes",
+      "total": 664924139,
+      "share": 0.154
+    },
+    {
+      "area": "Other taxes",
+      "total": 291381457,
+      "share": 0.0675
+    },
+    {
+      "area": "Sales & services",
+      "total": 259762976,
+      "share": 0.0602
+    },
+    {
+      "area": "Other",
+      "total": 147048042,
+      "share": 0.0341
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 47841460,
+      "share": 0.0111
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 1113635728,
+      "share": 0.2879
+    },
+    {
+      "area": "Human services",
+      "total": 996276020,
+      "share": 0.2576
+    },
+    {
+      "area": "Public safety",
+      "total": 726678925,
+      "share": 0.1879
+    },
+    {
+      "area": "Other",
+      "total": 484252146,
+      "share": 0.1252
+    },
+    {
+      "area": "General government",
+      "total": 363705542,
+      "share": 0.094
+    },
+    {
+      "area": "Debt service",
+      "total": 183393783,
+      "share": 0.0474
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 178461819,
+      "benchmark": 178461819,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 181004993,
+      "benchmark": 178138882,
+      "population_growth": -0.0005,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0018
+    },
+    {
+      "year": 2018,
+      "actual": 190133892,
+      "benchmark": 179987064,
+      "population_growth": 0.0036,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0104
+    },
+    {
+      "year": 2019,
+      "actual": 193937073,
+      "benchmark": 182048928,
+      "population_growth": -0.0042,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0115
+    },
+    {
+      "year": 2020,
+      "actual": 194910291,
+      "benchmark": 189198371,
+      "population_growth": 0.0104,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0393
+    },
+    {
+      "year": 2021,
+      "actual": 201011224,
+      "benchmark": 192782998,
+      "population_growth": 0.0047,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0189
+    },
+    {
+      "year": 2022,
+      "actual": 202328374,
+      "benchmark": 196057993,
+      "population_growth": 0.0115,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.017
+    },
+    {
+      "year": 2023,
+      "actual": 206919171,
+      "benchmark": 210918561,
+      "population_growth": 0.0179,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0758
+    },
+    {
+      "year": 2024,
+      "actual": 216059944,
+      "benchmark": 230097845,
+      "population_growth": -0.0026,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0909
+    },
+    {
+      "year": 2025,
+      "actual": 224284217,
+      "benchmark": 237042912,
+      "population_growth": -0.0034,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0302
+    }
+  ]
+}

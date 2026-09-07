@@ -1,0 +1,162 @@
+{
+  "place": "Catawba",
+  "label": "Catawba County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 55719422,
+  "difference_pct": 5.37,
+  "actual_property_tax_total": 1094274313,
+  "benchmark_property_tax_total": 1038554891,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 1094274313,
+      "share": 0.4204
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 457844807,
+      "share": 0.1759
+    },
+    {
+      "area": "Sales taxes",
+      "total": 452892712,
+      "share": 0.174
+    },
+    {
+      "area": "Sales & services",
+      "total": 243325394,
+      "share": 0.0935
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 146970560,
+      "share": 0.0565
+    },
+    {
+      "area": "Other",
+      "total": 106058805,
+      "share": 0.0407
+    },
+    {
+      "area": "Other taxes",
+      "total": 101647167,
+      "share": 0.039
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 672964293,
+      "share": 0.2722
+    },
+    {
+      "area": "Public safety",
+      "total": 609184903,
+      "share": 0.2464
+    },
+    {
+      "area": "Human services",
+      "total": 474671578,
+      "share": 0.192
+    },
+    {
+      "area": "Other",
+      "total": 294025713,
+      "share": 0.1189
+    },
+    {
+      "area": "General government",
+      "total": 222389366,
+      "share": 0.09
+    },
+    {
+      "area": "Debt service",
+      "total": 198634535,
+      "share": 0.0804
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 93185610,
+      "benchmark": 93185610,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 95795674,
+      "benchmark": 93209657,
+      "population_growth": 0.0015,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0003
+    },
+    {
+      "year": 2018,
+      "actual": 103817208,
+      "benchmark": 94202640,
+      "population_growth": 0.0039,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0107
+    },
+    {
+      "year": 2019,
+      "actual": 100492433,
+      "benchmark": 96066797,
+      "population_growth": 0.0041,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0198
+    },
+    {
+      "year": 2020,
+      "actual": 106768026,
+      "benchmark": 99360822,
+      "population_growth": 0.0054,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0343
+    },
+    {
+      "year": 2021,
+      "actual": 111467517,
+      "benchmark": 101579744,
+      "population_growth": 0.0081,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0223
+    },
+    {
+      "year": 2022,
+      "actual": 115652454,
+      "benchmark": 103063360,
+      "population_growth": 0.0091,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0146
+    },
+    {
+      "year": 2023,
+      "actual": 118089966,
+      "benchmark": 109984037,
+      "population_growth": 0.0093,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0671
+    },
+    {
+      "year": 2024,
+      "actual": 123560522,
+      "benchmark": 121249638,
+      "population_growth": 0.0089,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1024
+    },
+    {
+      "year": 2025,
+      "actual": 125444903,
+      "benchmark": 126652585,
+      "population_growth": 0.0109,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0446
+    }
+  ]
+}

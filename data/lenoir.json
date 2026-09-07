@@ -1,0 +1,162 @@
+{
+  "place": "Lenoir",
+  "label": "Lenoir County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 25971325,
+  "difference_pct": 6.87,
+  "actual_property_tax_total": 404032138,
+  "benchmark_property_tax_total": 378060813,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 404032138,
+      "share": 0.4866
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 193707810,
+      "share": 0.2333
+    },
+    {
+      "area": "Sales taxes",
+      "total": 114412746,
+      "share": 0.1378
+    },
+    {
+      "area": "Sales & services",
+      "total": 80931482,
+      "share": 0.0975
+    },
+    {
+      "area": "Other",
+      "total": 29393490,
+      "share": 0.0354
+    },
+    {
+      "area": "Other taxes",
+      "total": 5620256,
+      "share": 0.0068
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 2137355,
+      "share": 0.0026
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 228010074,
+      "share": 0.2908
+    },
+    {
+      "area": "Human services",
+      "total": 163614524,
+      "share": 0.2087
+    },
+    {
+      "area": "Education",
+      "total": 131531807,
+      "share": 0.1677
+    },
+    {
+      "area": "General government",
+      "total": 106683190,
+      "share": 0.1361
+    },
+    {
+      "area": "Other",
+      "total": 84307904,
+      "share": 0.1075
+    },
+    {
+      "area": "Debt service",
+      "total": 69989708,
+      "share": 0.0893
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 36208891,
+      "benchmark": 36208891,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 37309026,
+      "benchmark": 35827311,
+      "population_growth": -0.0093,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0105
+    },
+    {
+      "year": 2018,
+      "actual": 39764229,
+      "benchmark": 35583599,
+      "population_growth": -0.0136,
+      "inflation_growth": 0.0068,
+      "allowed_growth": -0.0068
+    },
+    {
+      "year": 2019,
+      "actual": 35927094,
+      "benchmark": 35720092,
+      "population_growth": -0.0118,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0038
+    },
+    {
+      "year": 2020,
+      "actual": 38174651,
+      "benchmark": 36447810,
+      "population_growth": -0.0085,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0204
+    },
+    {
+      "year": 2021,
+      "actual": 40817674,
+      "benchmark": 36961284,
+      "population_growth": -0.0002,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0141
+    },
+    {
+      "year": 2022,
+      "actual": 41118669,
+      "benchmark": 36931109,
+      "population_growth": -0.0064,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0008
+    },
+    {
+      "year": 2023,
+      "actual": 43572416,
+      "benchmark": 38553942,
+      "population_growth": -0.014,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0439
+    },
+    {
+      "year": 2024,
+      "actual": 45622258,
+      "benchmark": 42126454,
+      "population_growth": -0.0008,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0927
+    },
+    {
+      "year": 2025,
+      "actual": 45517230,
+      "benchmark": 43700322,
+      "population_growth": 0.0037,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0374
+    }
+  ]
+}

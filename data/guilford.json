@@ -1,0 +1,162 @@
+{
+  "place": "Guilford",
+  "label": "Guilford County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 133312398,
+  "difference_pct": 3.25,
+  "actual_property_tax_total": 4233548847,
+  "benchmark_property_tax_total": 4100236449,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 4233548847,
+      "share": 0.4936
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 1279394218,
+      "share": 0.1492
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 1239876281,
+      "share": 0.1446
+    },
+    {
+      "area": "Sales taxes",
+      "total": 1078138413,
+      "share": 0.1257
+    },
+    {
+      "area": "Other taxes",
+      "total": 309891202,
+      "share": 0.0361
+    },
+    {
+      "area": "Sales & services",
+      "total": 240674547,
+      "share": 0.0281
+    },
+    {
+      "area": "Other",
+      "total": 195921755,
+      "share": 0.0228
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 3008580546,
+      "share": 0.3861
+    },
+    {
+      "area": "Public safety",
+      "total": 1516438826,
+      "share": 0.1946
+    },
+    {
+      "area": "Human services",
+      "total": 1426065117,
+      "share": 0.183
+    },
+    {
+      "area": "Debt service",
+      "total": 951006007,
+      "share": 0.1221
+    },
+    {
+      "area": "General government",
+      "total": 605789508,
+      "share": 0.0777
+    },
+    {
+      "area": "Other",
+      "total": 284052150,
+      "share": 0.0365
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 361630981,
+      "benchmark": 361630981,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 364722086,
+      "benchmark": 364665150,
+      "population_growth": 0.0097,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0084
+    },
+    {
+      "year": 2018,
+      "actual": 371556305,
+      "benchmark": 372406515,
+      "population_growth": 0.0144,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0212
+    },
+    {
+      "year": 2019,
+      "actual": 377837947,
+      "benchmark": 381152102,
+      "population_growth": 0.0078,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0235
+    },
+    {
+      "year": 2020,
+      "actual": 386264536,
+      "benchmark": 396505227,
+      "population_growth": 0.0114,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0403
+    },
+    {
+      "year": 2021,
+      "actual": 396882227,
+      "benchmark": 404664506,
+      "population_growth": 0.0063,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0206
+    },
+    {
+      "year": 2022,
+      "actual": 405972935,
+      "benchmark": 407621195,
+      "population_growth": 0.0018,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0073
+    },
+    {
+      "year": 2023,
+      "actual": 509209683,
+      "benchmark": 435618168,
+      "population_growth": 0.0108,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0687
+    },
+    {
+      "year": 2024,
+      "actual": 522928959,
+      "benchmark": 478263949,
+      "population_growth": 0.0044,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0979
+    },
+    {
+      "year": 2025,
+      "actual": 536543188,
+      "benchmark": 497708655,
+      "population_growth": 0.007,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0407
+    }
+  ]
+}

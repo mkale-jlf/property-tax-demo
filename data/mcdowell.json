@@ -1,0 +1,162 @@
+{
+  "place": "McDowell",
+  "label": "McDowell County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 26255900,
+  "difference_pct": 10.71,
+  "actual_property_tax_total": 271338659,
+  "benchmark_property_tax_total": 245082759,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 271338659,
+      "share": 0.3763
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 137468279,
+      "share": 0.1906
+    },
+    {
+      "area": "Sales taxes",
+      "total": 113900296,
+      "share": 0.1579
+    },
+    {
+      "area": "Sales & services",
+      "total": 89243740,
+      "share": 0.1238
+    },
+    {
+      "area": "Other taxes",
+      "total": 53550726,
+      "share": 0.0743
+    },
+    {
+      "area": "Other",
+      "total": 28062061,
+      "share": 0.0389
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 27555145,
+      "share": 0.0382
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 207998713,
+      "share": 0.3028
+    },
+    {
+      "area": "Education",
+      "total": 141412092,
+      "share": 0.2059
+    },
+    {
+      "area": "Human services",
+      "total": 124654059,
+      "share": 0.1815
+    },
+    {
+      "area": "Other",
+      "total": 107887415,
+      "share": 0.1571
+    },
+    {
+      "area": "General government",
+      "total": 75371783,
+      "share": 0.1097
+    },
+    {
+      "area": "Debt service",
+      "total": 29526468,
+      "share": 0.043
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 22665528,
+      "benchmark": 22665528,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 20444117,
+      "benchmark": 22598130,
+      "population_growth": -0.0017,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.003
+    },
+    {
+      "year": 2018,
+      "actual": 20553025,
+      "benchmark": 22693594,
+      "population_growth": -0.0026,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0042
+    },
+    {
+      "year": 2019,
+      "actual": 26202043,
+      "benchmark": 23210864,
+      "population_growth": 0.0071,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0228
+    },
+    {
+      "year": 2020,
+      "actual": 25983667,
+      "benchmark": 23905787,
+      "population_growth": 0.0011,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0299
+    },
+    {
+      "year": 2021,
+      "actual": 27086588,
+      "benchmark": 24229354,
+      "population_growth": -0.0007,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0135
+    },
+    {
+      "year": 2022,
+      "actual": 27526034,
+      "benchmark": 24191071,
+      "population_growth": -0.0071,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0016
+    },
+    {
+      "year": 2023,
+      "actual": 28773193,
+      "benchmark": 25242104,
+      "population_growth": -0.0144,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0434
+    },
+    {
+      "year": 2024,
+      "actual": 35266158,
+      "benchmark": 27621030,
+      "population_growth": 0.0007,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0942
+    },
+    {
+      "year": 2025,
+      "actual": 36838306,
+      "benchmark": 28725297,
+      "population_growth": 0.0064,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.04
+    }
+  ]
+}

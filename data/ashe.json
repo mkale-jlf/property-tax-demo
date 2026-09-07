@@ -1,0 +1,162 @@
+{
+  "place": "Ashe",
+  "label": "Ashe County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 23698461,
+  "difference_pct": 12.88,
+  "actual_property_tax_total": 207704692,
+  "benchmark_property_tax_total": 184006231,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 207704692,
+      "share": 0.3982
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 103123787,
+      "share": 0.1977
+    },
+    {
+      "area": "Sales taxes",
+      "total": 87234081,
+      "share": 0.1672
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 65101196,
+      "share": 0.1248
+    },
+    {
+      "area": "Sales & services",
+      "total": 37769733,
+      "share": 0.0724
+    },
+    {
+      "area": "Other",
+      "total": 11748125,
+      "share": 0.0225
+    },
+    {
+      "area": "Other taxes",
+      "total": 8913619,
+      "share": 0.0171
+    }
+  ],
+  "spending": [
+    {
+      "area": "Human services",
+      "total": 109663623,
+      "share": 0.24
+    },
+    {
+      "area": "Public safety",
+      "total": 94076946,
+      "share": 0.2059
+    },
+    {
+      "area": "Education",
+      "total": 87405540,
+      "share": 0.1913
+    },
+    {
+      "area": "Other",
+      "total": 74325357,
+      "share": 0.1627
+    },
+    {
+      "area": "General government",
+      "total": 60813229,
+      "share": 0.1331
+    },
+    {
+      "area": "Debt service",
+      "total": 30668485,
+      "share": 0.0671
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 17074233,
+      "benchmark": 17074233,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 17487087,
+      "benchmark": 16840145,
+      "population_growth": -0.0124,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0137
+    },
+    {
+      "year": 2018,
+      "actual": 18693073,
+      "benchmark": 16926981,
+      "population_growth": -0.0016,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0052
+    },
+    {
+      "year": 2019,
+      "actual": 18546946,
+      "benchmark": 17252298,
+      "population_growth": 0.0036,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0192
+    },
+    {
+      "year": 2020,
+      "actual": 18910530,
+      "benchmark": 17874057,
+      "population_growth": 0.0072,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.036
+    },
+    {
+      "year": 2021,
+      "actual": 19485617,
+      "benchmark": 18165074,
+      "population_growth": 0.002,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0163
+    },
+    {
+      "year": 2022,
+      "actual": 21547414,
+      "benchmark": 18168163,
+      "population_growth": -0.0054,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0002
+    },
+    {
+      "year": 2023,
+      "actual": 22279723,
+      "benchmark": 19101426,
+      "population_growth": -0.0065,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0514
+    },
+    {
+      "year": 2024,
+      "actual": 26583080,
+      "benchmark": 21053785,
+      "population_growth": 0.0087,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1022
+    },
+    {
+      "year": 2025,
+      "actual": 27096989,
+      "benchmark": 21550068,
+      "population_growth": -0.0101,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0236
+    }
+  ]
+}

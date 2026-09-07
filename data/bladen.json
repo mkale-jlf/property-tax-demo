@@ -1,0 +1,162 @@
+{
+  "place": "Bladen",
+  "label": "Bladen County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 28657987,
+  "difference_pct": 11.91,
+  "actual_property_tax_total": 269337417,
+  "benchmark_property_tax_total": 240679430,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 269337417,
+      "share": 0.3873
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 166618294,
+      "share": 0.2396
+    },
+    {
+      "area": "Sales & services",
+      "total": 111636805,
+      "share": 0.1605
+    },
+    {
+      "area": "Sales taxes",
+      "total": 75264282,
+      "share": 0.1082
+    },
+    {
+      "area": "Other",
+      "total": 43830070,
+      "share": 0.063
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 24976496,
+      "share": 0.0359
+    },
+    {
+      "area": "Other taxes",
+      "total": 3698256,
+      "share": 0.0053
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 176325083,
+      "share": 0.2668
+    },
+    {
+      "area": "Education",
+      "total": 140361032,
+      "share": 0.2124
+    },
+    {
+      "area": "Human services",
+      "total": 126819169,
+      "share": 0.1919
+    },
+    {
+      "area": "Other",
+      "total": 85462347,
+      "share": 0.1293
+    },
+    {
+      "area": "General government",
+      "total": 74711206,
+      "share": 0.1131
+    },
+    {
+      "area": "Debt service",
+      "total": 57108694,
+      "share": 0.0864
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 23919282,
+      "benchmark": 23919282,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 24006773,
+      "benchmark": 23406961,
+      "population_growth": -0.0202,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0214
+    },
+    {
+      "year": 2018,
+      "actual": 24312555,
+      "benchmark": 23043019,
+      "population_growth": -0.0223,
+      "inflation_growth": 0.0068,
+      "allowed_growth": -0.0155
+    },
+    {
+      "year": 2019,
+      "actual": 25381258,
+      "benchmark": 22963476,
+      "population_growth": -0.0191,
+      "inflation_growth": 0.0156,
+      "allowed_growth": -0.0035
+    },
+    {
+      "year": 2020,
+      "actual": 26229927,
+      "benchmark": 23290301,
+      "population_growth": -0.0146,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0142
+    },
+    {
+      "year": 2021,
+      "actual": 27231702,
+      "benchmark": 23284544,
+      "population_growth": -0.0145,
+      "inflation_growth": 0.0143,
+      "allowed_growth": -0.0002
+    },
+    {
+      "year": 2022,
+      "actual": 27196657,
+      "benchmark": 23032085,
+      "population_growth": -0.0164,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0108
+    },
+    {
+      "year": 2023,
+      "actual": 29643388,
+      "benchmark": 24014824,
+      "population_growth": -0.0152,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0427
+    },
+    {
+      "year": 2024,
+      "actual": 30562653,
+      "benchmark": 26238180,
+      "population_growth": -0.0009,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0926
+    },
+    {
+      "year": 2025,
+      "actual": 30853222,
+      "benchmark": 27486759,
+      "population_growth": 0.014,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0476
+    }
+  ]
+}

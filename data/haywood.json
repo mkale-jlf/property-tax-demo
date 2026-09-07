@@ -1,0 +1,162 @@
+{
+  "place": "Haywood",
+  "label": "Haywood County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 6061731,
+  "difference_pct": 1.27,
+  "actual_property_tax_total": 483811003,
+  "benchmark_property_tax_total": 477749272,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 483811003,
+      "share": 0.4114
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 214055083,
+      "share": 0.182
+    },
+    {
+      "area": "Sales taxes",
+      "total": 190368271,
+      "share": 0.1619
+    },
+    {
+      "area": "Sales & services",
+      "total": 111261978,
+      "share": 0.0946
+    },
+    {
+      "area": "Other taxes",
+      "total": 95355233,
+      "share": 0.0811
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 40661944,
+      "share": 0.0346
+    },
+    {
+      "area": "Other",
+      "total": 40470164,
+      "share": 0.0344
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 306707378,
+      "share": 0.2748
+    },
+    {
+      "area": "Education",
+      "total": 226795259,
+      "share": 0.2032
+    },
+    {
+      "area": "Human services",
+      "total": 223601021,
+      "share": 0.2004
+    },
+    {
+      "area": "Other",
+      "total": 161353932,
+      "share": 0.1446
+    },
+    {
+      "area": "General government",
+      "total": 126342245,
+      "share": 0.1132
+    },
+    {
+      "area": "Debt service",
+      "total": 71109550,
+      "share": 0.0637
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 42206210,
+      "benchmark": 42206210,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 43218915,
+      "benchmark": 42518618,
+      "population_growth": 0.0087,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0074
+    },
+    {
+      "year": 2018,
+      "actual": 43899057,
+      "benchmark": 43473415,
+      "population_growth": 0.0157,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0225
+    },
+    {
+      "year": 2019,
+      "actual": 44592069,
+      "benchmark": 44733306,
+      "population_growth": 0.0133,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.029
+    },
+    {
+      "year": 2020,
+      "actual": 45070916,
+      "benchmark": 46230652,
+      "population_growth": 0.0046,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0335
+    },
+    {
+      "year": 2021,
+      "actual": 46213759,
+      "benchmark": 46966480,
+      "population_growth": 0.0017,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0159
+    },
+    {
+      "year": 2022,
+      "actual": 51988684,
+      "benchmark": 47482820,
+      "population_growth": 0.0055,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.011
+    },
+    {
+      "year": 2023,
+      "actual": 53115032,
+      "benchmark": 50632154,
+      "population_growth": 0.0084,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0663
+    },
+    {
+      "year": 2024,
+      "actual": 56333470,
+      "benchmark": 55570863,
+      "population_growth": 0.004,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0975
+    },
+    {
+      "year": 2025,
+      "actual": 57172891,
+      "benchmark": 57934755,
+      "population_growth": 0.0089,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0425
+    }
+  ]
+}

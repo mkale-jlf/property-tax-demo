@@ -1,0 +1,162 @@
+{
+  "place": "Macon",
+  "label": "Macon County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 0,
+  "difference_dollars": -190596,
+  "difference_pct": -0.06,
+  "actual_property_tax_total": 320110535,
+  "benchmark_property_tax_total": 320301131,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 320110535,
+      "share": 0.3789
+    },
+    {
+      "area": "Sales taxes",
+      "total": 132205587,
+      "share": 0.1565
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 125826957,
+      "share": 0.1489
+    },
+    {
+      "area": "Sales & services",
+      "total": 93385075,
+      "share": 0.1105
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 91252539,
+      "share": 0.108
+    },
+    {
+      "area": "Other taxes",
+      "total": 55195293,
+      "share": 0.0653
+    },
+    {
+      "area": "Other",
+      "total": 26911414,
+      "share": 0.0319
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 199174938,
+      "share": 0.2712
+    },
+    {
+      "area": "Education",
+      "total": 150701416,
+      "share": 0.2052
+    },
+    {
+      "area": "Other",
+      "total": 121520338,
+      "share": 0.1654
+    },
+    {
+      "area": "Human services",
+      "total": 116821867,
+      "share": 0.1591
+    },
+    {
+      "area": "General government",
+      "total": 94072012,
+      "share": 0.1281
+    },
+    {
+      "area": "Debt service",
+      "total": 52193618,
+      "share": 0.0711
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 28070448,
+      "benchmark": 28070448,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 28339871,
+      "benchmark": 28289761,
+      "population_growth": 0.0091,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0078
+    },
+    {
+      "year": 2018,
+      "actual": 28337614,
+      "benchmark": 28772849,
+      "population_growth": 0.0103,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0171
+    },
+    {
+      "year": 2019,
+      "actual": 28456704,
+      "benchmark": 29609061,
+      "population_growth": 0.0134,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0291
+    },
+    {
+      "year": 2020,
+      "actual": 30504822,
+      "benchmark": 30832687,
+      "population_growth": 0.0125,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0413
+    },
+    {
+      "year": 2021,
+      "actual": 31216927,
+      "benchmark": 31777531,
+      "population_growth": 0.0164,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0306
+    },
+    {
+      "year": 2022,
+      "actual": 33855016,
+      "benchmark": 32124615,
+      "population_growth": 0.0054,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0109
+    },
+    {
+      "year": 2023,
+      "actual": 34363339,
+      "benchmark": 33872384,
+      "population_growth": -0.0035,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0544
+    },
+    {
+      "year": 2024,
+      "actual": 35301349,
+      "benchmark": 37588859,
+      "population_growth": 0.0162,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1097
+    },
+    {
+      "year": 2025,
+      "actual": 41664445,
+      "benchmark": 39362937,
+      "population_growth": 0.0136,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0472
+    }
+  ]
+}

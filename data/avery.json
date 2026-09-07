@@ -1,0 +1,162 @@
+{
+  "place": "Avery",
+  "label": "Avery County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 3,
+  "difference_dollars": 32829381,
+  "difference_pct": 20.93,
+  "actual_property_tax_total": 189683718,
+  "benchmark_property_tax_total": 156854337,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 189683718,
+      "share": 0.4539
+    },
+    {
+      "area": "Sales taxes",
+      "total": 73081446,
+      "share": 0.1749
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 64922458,
+      "share": 0.1554
+    },
+    {
+      "area": "Other taxes",
+      "total": 39934423,
+      "share": 0.0956
+    },
+    {
+      "area": "Sales & services",
+      "total": 24426127,
+      "share": 0.0585
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 12973034,
+      "share": 0.031
+    },
+    {
+      "area": "Other",
+      "total": 12860720,
+      "share": 0.0308
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 131259552,
+      "share": 0.3331
+    },
+    {
+      "area": "Education",
+      "total": 84413418,
+      "share": 0.2142
+    },
+    {
+      "area": "General government",
+      "total": 58483673,
+      "share": 0.1484
+    },
+    {
+      "area": "Human services",
+      "total": 55394132,
+      "share": 0.1406
+    },
+    {
+      "area": "Other",
+      "total": 53148563,
+      "share": 0.1349
+    },
+    {
+      "area": "Debt service",
+      "total": 11359452,
+      "share": 0.0288
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 14566221,
+      "benchmark": 14566221,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 14353834,
+      "benchmark": 14430426,
+      "population_growth": -0.0081,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0093
+    },
+    {
+      "year": 2018,
+      "actual": 18093587,
+      "benchmark": 14571818,
+      "population_growth": 0.003,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0098
+    },
+    {
+      "year": 2019,
+      "actual": 19072647,
+      "benchmark": 14860856,
+      "population_growth": 0.0042,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0198
+    },
+    {
+      "year": 2020,
+      "actual": 19532870,
+      "benchmark": 15333051,
+      "population_growth": 0.0029,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0318
+    },
+    {
+      "year": 2021,
+      "actual": 20393182,
+      "benchmark": 15548111,
+      "population_growth": -0.0002,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.014
+    },
+    {
+      "year": 2022,
+      "actual": 20795546,
+      "benchmark": 15575623,
+      "population_growth": -0.0038,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0018
+    },
+    {
+      "year": 2023,
+      "actual": 20668018,
+      "benchmark": 16012325,
+      "population_growth": -0.0299,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.028
+    },
+    {
+      "year": 2024,
+      "actual": 20772849,
+      "benchmark": 17573026,
+      "population_growth": 0.004,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0975
+    },
+    {
+      "year": 2025,
+      "actual": 21434964,
+      "benchmark": 18382880,
+      "population_growth": 0.0125,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0461
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "place": "Beaufort",
+  "label": "Beaufort County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 28818105,
+  "difference_pct": 8.04,
+  "actual_property_tax_total": 387159362,
+  "benchmark_property_tax_total": 358341257,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 387159362,
+      "share": 0.4502
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 157234401,
+      "share": 0.1828
+    },
+    {
+      "area": "Sales & services",
+      "total": 151730409,
+      "share": 0.1764
+    },
+    {
+      "area": "Sales taxes",
+      "total": 111979368,
+      "share": 0.1302
+    },
+    {
+      "area": "Other",
+      "total": 28358428,
+      "share": 0.033
+    },
+    {
+      "area": "Other taxes",
+      "total": 22669987,
+      "share": 0.0264
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 809957,
+      "share": 0.0009
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 204133415,
+      "share": 0.2561
+    },
+    {
+      "area": "Public safety",
+      "total": 188623297,
+      "share": 0.2366
+    },
+    {
+      "area": "Human services",
+      "total": 172933587,
+      "share": 0.2169
+    },
+    {
+      "area": "Other",
+      "total": 116250974,
+      "share": 0.1458
+    },
+    {
+      "area": "General government",
+      "total": 68239699,
+      "share": 0.0856
+    },
+    {
+      "area": "Debt service",
+      "total": 46959210,
+      "share": 0.0589
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 33995575,
+      "benchmark": 33995575,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 35774448,
+      "benchmark": 33756207,
+      "population_growth": -0.0058,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.007
+    },
+    {
+      "year": 2018,
+      "actual": 36521633,
+      "benchmark": 33682519,
+      "population_growth": -0.009,
+      "inflation_growth": 0.0068,
+      "allowed_growth": -0.0022
+    },
+    {
+      "year": 2019,
+      "actual": 35500043,
+      "benchmark": 33993708,
+      "population_growth": -0.0064,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0092
+    },
+    {
+      "year": 2020,
+      "actual": 37269072,
+      "benchmark": 34748245,
+      "population_growth": -0.0066,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0222
+    },
+    {
+      "year": 2021,
+      "actual": 38552966,
+      "benchmark": 35043281,
+      "population_growth": -0.0058,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0085
+    },
+    {
+      "year": 2022,
+      "actual": 38641076,
+      "benchmark": 34981191,
+      "population_growth": -0.0073,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0018
+    },
+    {
+      "year": 2023,
+      "actual": 39771771,
+      "benchmark": 36623272,
+      "population_growth": -0.011,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0469
+    },
+    {
+      "year": 2024,
+      "actual": 44949759,
+      "benchmark": 40118655,
+      "population_growth": 0.0019,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0954
+    },
+    {
+      "year": 2025,
+      "actual": 46183019,
+      "benchmark": 41398605,
+      "population_growth": -0.0017,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0319
+    }
+  ]
+}

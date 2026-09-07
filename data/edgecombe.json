@@ -1,0 +1,162 @@
+{
+  "place": "Edgecombe",
+  "label": "Edgecombe County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 29723196,
+  "difference_pct": 9.91,
+  "actual_property_tax_total": 329724664,
+  "benchmark_property_tax_total": 300001468,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 329724664,
+      "share": 0.4059
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 198262353,
+      "share": 0.2441
+    },
+    {
+      "area": "Sales & services",
+      "total": 109623326,
+      "share": 0.135
+    },
+    {
+      "area": "Sales taxes",
+      "total": 89226905,
+      "share": 0.1098
+    },
+    {
+      "area": "Other",
+      "total": 37371055,
+      "share": 0.046
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 34162066,
+      "share": 0.0421
+    },
+    {
+      "area": "Other taxes",
+      "total": 13947655,
+      "share": 0.0172
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 189417898,
+      "share": 0.2407
+    },
+    {
+      "area": "Human services",
+      "total": 177345150,
+      "share": 0.2254
+    },
+    {
+      "area": "Education",
+      "total": 142957826,
+      "share": 0.1817
+    },
+    {
+      "area": "Other",
+      "total": 138812764,
+      "share": 0.1764
+    },
+    {
+      "area": "General government",
+      "total": 77438170,
+      "share": 0.0984
+    },
+    {
+      "area": "Debt service",
+      "total": 60980471,
+      "share": 0.0775
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 30198004,
+      "benchmark": 30198004,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 31137542,
+      "benchmark": 29377488,
+      "population_growth": -0.0259,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0272
+    },
+    {
+      "year": 2018,
+      "actual": 30764184,
+      "benchmark": 28947556,
+      "population_growth": -0.0214,
+      "inflation_growth": 0.0068,
+      "allowed_growth": -0.0146
+    },
+    {
+      "year": 2019,
+      "actual": 30895217,
+      "benchmark": 29053971,
+      "population_growth": -0.012,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0037
+    },
+    {
+      "year": 2020,
+      "actual": 30890115,
+      "benchmark": 29420176,
+      "population_growth": -0.0162,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0126
+    },
+    {
+      "year": 2021,
+      "actual": 34222380,
+      "benchmark": 29477733,
+      "population_growth": -0.0123,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.002
+    },
+    {
+      "year": 2022,
+      "actual": 34041737,
+      "benchmark": 29445216,
+      "population_growth": -0.0066,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0011
+    },
+    {
+      "year": 2023,
+      "actual": 33842212,
+      "benchmark": 25151983,
+      "population_growth": -0.2037,
+      "inflation_growth": 0.0579,
+      "allowed_growth": -0.1458
+    },
+    {
+      "year": 2024,
+      "actual": 34259821,
+      "benchmark": 33883204,
+      "population_growth": 0.2536,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.3471
+    },
+    {
+      "year": 2025,
+      "actual": 39473452,
+      "benchmark": 35046138,
+      "population_growth": 0.0007,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0343
+    }
+  ]
+}

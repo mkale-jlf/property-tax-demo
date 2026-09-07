@@ -1,0 +1,162 @@
+{
+  "place": "Vance",
+  "label": "Vance County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 15256224,
+  "difference_pct": 6.17,
+  "actual_property_tax_total": 262474880,
+  "benchmark_property_tax_total": 247218656,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 262474880,
+      "share": 0.4251
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 125493345,
+      "share": 0.2033
+    },
+    {
+      "area": "Sales taxes",
+      "total": 110203370,
+      "share": 0.1785
+    },
+    {
+      "area": "Sales & services",
+      "total": 65335290,
+      "share": 0.1058
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 27421218,
+      "share": 0.0444
+    },
+    {
+      "area": "Other",
+      "total": 14203889,
+      "share": 0.023
+    },
+    {
+      "area": "Other taxes",
+      "total": 12247037,
+      "share": 0.0198
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 169301994,
+      "share": 0.2961
+    },
+    {
+      "area": "Human services",
+      "total": 120457068,
+      "share": 0.2107
+    },
+    {
+      "area": "Education",
+      "total": 110200202,
+      "share": 0.1928
+    },
+    {
+      "area": "Other",
+      "total": 87688662,
+      "share": 0.1534
+    },
+    {
+      "area": "General government",
+      "total": 54089521,
+      "share": 0.0946
+    },
+    {
+      "area": "Debt service",
+      "total": 29984080,
+      "share": 0.0524
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 23378108,
+      "benchmark": 23378108,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 23935307,
+      "benchmark": 23191814,
+      "population_growth": -0.0067,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.008
+    },
+    {
+      "year": 2018,
+      "actual": 24394340,
+      "benchmark": 23194380,
+      "population_growth": -0.0067,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0001
+    },
+    {
+      "year": 2019,
+      "actual": 24575782,
+      "benchmark": 23470705,
+      "population_growth": -0.0037,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0119
+    },
+    {
+      "year": 2020,
+      "actual": 24966370,
+      "benchmark": 24249783,
+      "population_growth": 0.0044,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0332
+    },
+    {
+      "year": 2021,
+      "actual": 27515772,
+      "benchmark": 24425697,
+      "population_growth": -0.007,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0073
+    },
+    {
+      "year": 2022,
+      "actual": 26081016,
+      "benchmark": 24283414,
+      "population_growth": -0.0114,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0058
+    },
+    {
+      "year": 2023,
+      "actual": 26831997,
+      "benchmark": 25225143,
+      "population_growth": -0.0191,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0388
+    },
+    {
+      "year": 2024,
+      "actual": 27238194,
+      "benchmark": 27428040,
+      "population_growth": -0.0062,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0873
+    },
+    {
+      "year": 2025,
+      "actual": 33557994,
+      "benchmark": 28371572,
+      "population_growth": 0.0008,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0344
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "place": "Yancey",
+  "label": "Yancey County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 11136889,
+  "difference_pct": 8.3,
+  "actual_property_tax_total": 145268058,
+  "benchmark_property_tax_total": 134131169,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 145268058,
+      "share": 0.5118
+    },
+    {
+      "area": "Sales taxes",
+      "total": 50600838,
+      "share": 0.1783
+    },
+    {
+      "area": "Sales & services",
+      "total": 39078392,
+      "share": 0.1377
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 25840208,
+      "share": 0.091
+    },
+    {
+      "area": "Other taxes",
+      "total": 9795014,
+      "share": 0.0345
+    },
+    {
+      "area": "Other",
+      "total": 9545748,
+      "share": 0.0336
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 3704416,
+      "share": 0.0131
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 73315162,
+      "share": 0.2638
+    },
+    {
+      "area": "Human services",
+      "total": 59051923,
+      "share": 0.2125
+    },
+    {
+      "area": "Education",
+      "total": 48045975,
+      "share": 0.1729
+    },
+    {
+      "area": "Other",
+      "total": 45579290,
+      "share": 0.164
+    },
+    {
+      "area": "General government",
+      "total": 38379403,
+      "share": 0.1381
+    },
+    {
+      "area": "Debt service",
+      "total": 13509950,
+      "share": 0.0486
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 12056969,
+      "benchmark": 12056969,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 12784561,
+      "benchmark": 12048481,
+      "population_growth": 0.0006,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0007
+    },
+    {
+      "year": 2018,
+      "actual": 13684927,
+      "benchmark": 12208261,
+      "population_growth": 0.0065,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0133
+    },
+    {
+      "year": 2019,
+      "actual": 13795361,
+      "benchmark": 12517383,
+      "population_growth": 0.0097,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0253
+    },
+    {
+      "year": 2020,
+      "actual": 13794020,
+      "benchmark": 12962309,
+      "population_growth": 0.0067,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0355
+    },
+    {
+      "year": 2021,
+      "actual": 14254384,
+      "benchmark": 13300369,
+      "population_growth": 0.0118,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0261
+    },
+    {
+      "year": 2022,
+      "actual": 14272301,
+      "benchmark": 13386306,
+      "population_growth": 0.0009,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0065
+    },
+    {
+      "year": 2023,
+      "actual": 14735722,
+      "benchmark": 14090048,
+      "population_growth": -0.0053,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0526
+    },
+    {
+      "year": 2024,
+      "actual": 14924570,
+      "benchmark": 15492296,
+      "population_growth": 0.006,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0995
+    },
+    {
+      "year": 2025,
+      "actual": 20965243,
+      "benchmark": 16068747,
+      "population_growth": 0.0036,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0372
+    }
+  ]
+}

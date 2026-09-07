@@ -1,0 +1,162 @@
+{
+  "place": "Granville",
+  "label": "Granville County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 24155418,
+  "difference_pct": 5.91,
+  "actual_property_tax_total": 433054484,
+  "benchmark_property_tax_total": 408899066,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 433054484,
+      "share": 0.5234
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 132536324,
+      "share": 0.1602
+    },
+    {
+      "area": "Sales taxes",
+      "total": 113278192,
+      "share": 0.1369
+    },
+    {
+      "area": "Sales & services",
+      "total": 59483637,
+      "share": 0.0719
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 51226319,
+      "share": 0.0619
+    },
+    {
+      "area": "Other",
+      "total": 27423958,
+      "share": 0.0331
+    },
+    {
+      "area": "Other taxes",
+      "total": 10429665,
+      "share": 0.0126
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 205691614,
+      "share": 0.2608
+    },
+    {
+      "area": "Public safety",
+      "total": 180444098,
+      "share": 0.2288
+    },
+    {
+      "area": "Human services",
+      "total": 124807001,
+      "share": 0.1582
+    },
+    {
+      "area": "Other",
+      "total": 113988170,
+      "share": 0.1445
+    },
+    {
+      "area": "Debt service",
+      "total": 106156029,
+      "share": 0.1346
+    },
+    {
+      "area": "General government",
+      "total": 57684179,
+      "share": 0.0731
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 36419897,
+      "benchmark": 36419897,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 39426432,
+      "benchmark": 36604109,
+      "population_growth": 0.0063,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0051
+    },
+    {
+      "year": 2018,
+      "actual": 40390916,
+      "benchmark": 37346143,
+      "population_growth": 0.0135,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0203
+    },
+    {
+      "year": 2019,
+      "actual": 40736763,
+      "benchmark": 38591019,
+      "population_growth": 0.0177,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0333
+    },
+    {
+      "year": 2020,
+      "actual": 41440264,
+      "benchmark": 40078426,
+      "population_growth": 0.0097,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0385
+    },
+    {
+      "year": 2021,
+      "actual": 43258583,
+      "benchmark": 40915987,
+      "population_growth": 0.0066,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0209
+    },
+    {
+      "year": 2022,
+      "actual": 44058604,
+      "benchmark": 40549744,
+      "population_growth": -0.0145,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.009
+    },
+    {
+      "year": 2023,
+      "actual": 45670615,
+      "benchmark": 42510805,
+      "population_growth": -0.0095,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0484
+    },
+    {
+      "year": 2024,
+      "actual": 46090569,
+      "benchmark": 46933925,
+      "population_growth": 0.0105,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.104
+    },
+    {
+      "year": 2025,
+      "actual": 55561841,
+      "benchmark": 48949011,
+      "population_growth": 0.0093,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0429
+    }
+  ]
+}

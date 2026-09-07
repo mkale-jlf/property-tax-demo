@@ -1,0 +1,162 @@
+{
+  "place": "Pasquotank",
+  "label": "Pasquotank County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 6961802,
+  "difference_pct": 2.75,
+  "actual_property_tax_total": 260486537,
+  "benchmark_property_tax_total": 253524735,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 260486537,
+      "share": 0.3537
+    },
+    {
+      "area": "Sales & services",
+      "total": 169266336,
+      "share": 0.2298
+    },
+    {
+      "area": "Sales taxes",
+      "total": 111973105,
+      "share": 0.152
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 111708082,
+      "share": 0.1517
+    },
+    {
+      "area": "Other",
+      "total": 41729521,
+      "share": 0.0567
+    },
+    {
+      "area": "Other taxes",
+      "total": 34521097,
+      "share": 0.0469
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 6841278,
+      "share": 0.0093
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 161292280,
+      "share": 0.2402
+    },
+    {
+      "area": "Other",
+      "total": 155471154,
+      "share": 0.2315
+    },
+    {
+      "area": "Education",
+      "total": 149915416,
+      "share": 0.2233
+    },
+    {
+      "area": "Human services",
+      "total": 88756198,
+      "share": 0.1322
+    },
+    {
+      "area": "Debt service",
+      "total": 62009529,
+      "share": 0.0923
+    },
+    {
+      "area": "General government",
+      "total": 54029878,
+      "share": 0.0805
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 22865398,
+      "benchmark": 22865398,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 23584208,
+      "benchmark": 22895416,
+      "population_growth": 0.0026,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0013
+    },
+    {
+      "year": 2018,
+      "actual": 25696721,
+      "benchmark": 23246077,
+      "population_growth": 0.0085,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0153
+    },
+    {
+      "year": 2019,
+      "actual": 25544139,
+      "benchmark": 23537087,
+      "population_growth": -0.0031,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0125
+    },
+    {
+      "year": 2020,
+      "actual": 25709465,
+      "benchmark": 24394920,
+      "population_growth": 0.0076,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0364
+    },
+    {
+      "year": 2021,
+      "actual": 26432481,
+      "benchmark": 24920579,
+      "population_growth": 0.0073,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0215
+    },
+    {
+      "year": 2022,
+      "actual": 26545569,
+      "benchmark": 25000645,
+      "population_growth": -0.0023,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0032
+    },
+    {
+      "year": 2023,
+      "actual": 27274776,
+      "benchmark": 26762816,
+      "population_growth": 0.0126,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0705
+    },
+    {
+      "year": 2024,
+      "actual": 28155201,
+      "benchmark": 29363066,
+      "population_growth": 0.0036,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.0972
+    },
+    {
+      "year": 2025,
+      "actual": 28678579,
+      "benchmark": 30538730,
+      "population_growth": 0.0064,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.04
+    }
+  ]
+}

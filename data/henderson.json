@@ -1,0 +1,162 @@
+{
+  "place": "Henderson",
+  "label": "Henderson County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 121094290,
+  "difference_pct": 15.52,
+  "actual_property_tax_total": 901333992,
+  "benchmark_property_tax_total": 780239702,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 901333992,
+      "share": 0.427
+    },
+    {
+      "area": "Sales taxes",
+      "total": 284296177,
+      "share": 0.1347
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 263065851,
+      "share": 0.1246
+    },
+    {
+      "area": "Sales & services",
+      "total": 253088857,
+      "share": 0.1199
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 175957412,
+      "share": 0.0834
+    },
+    {
+      "area": "Other taxes",
+      "total": 153041547,
+      "share": 0.0725
+    },
+    {
+      "area": "Other",
+      "total": 79834112,
+      "share": 0.0378
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 552705512,
+      "share": 0.2706
+    },
+    {
+      "area": "Education",
+      "total": 507614626,
+      "share": 0.2485
+    },
+    {
+      "area": "Human services",
+      "total": 332304341,
+      "share": 0.1627
+    },
+    {
+      "area": "Other",
+      "total": 245714333,
+      "share": 0.1203
+    },
+    {
+      "area": "General government",
+      "total": 219472850,
+      "share": 0.1074
+    },
+    {
+      "area": "Debt service",
+      "total": 184854558,
+      "share": 0.0905
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 68416218,
+      "benchmark": 68416218,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 76359641,
+      "benchmark": 69045483,
+      "population_growth": 0.0105,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0092
+    },
+    {
+      "year": 2018,
+      "actual": 78134627,
+      "benchmark": 70643105,
+      "population_growth": 0.0164,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0231
+    },
+    {
+      "year": 2019,
+      "actual": 80145838,
+      "benchmark": 71294155,
+      "population_growth": -0.0064,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0092
+    },
+    {
+      "year": 2020,
+      "actual": 90926309,
+      "benchmark": 75313615,
+      "population_growth": 0.0275,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0564
+    },
+    {
+      "year": 2021,
+      "actual": 93683981,
+      "benchmark": 76386893,
+      "population_growth": 0,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0143
+    },
+    {
+      "year": 2022,
+      "actual": 96690099,
+      "benchmark": 77846956,
+      "population_growth": 0.0136,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0191
+    },
+    {
+      "year": 2023,
+      "actual": 100053834,
+      "benchmark": 83038481,
+      "population_growth": 0.0088,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0667
+    },
+    {
+      "year": 2024,
+      "actual": 106886756,
+      "benchmark": 91909065,
+      "population_growth": 0.0133,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1068
+    },
+    {
+      "year": 2025,
+      "actual": 110036689,
+      "benchmark": 96345730,
+      "population_growth": 0.0146,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0483
+    }
+  ]
+}

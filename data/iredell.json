@@ -1,0 +1,162 @@
+{
+  "place": "Iredell",
+  "label": "Iredell County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 162900782,
+  "difference_pct": 11.06,
+  "actual_property_tax_total": 1635806779,
+  "benchmark_property_tax_total": 1472905997,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 1635806779,
+      "share": 0.516
+    },
+    {
+      "area": "Sales taxes",
+      "total": 464081288,
+      "share": 0.1464
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 319413700,
+      "share": 0.1008
+    },
+    {
+      "area": "Sales & services",
+      "total": 306335680,
+      "share": 0.0966
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 300452747,
+      "share": 0.0948
+    },
+    {
+      "area": "Other",
+      "total": 112624324,
+      "share": 0.0355
+    },
+    {
+      "area": "Other taxes",
+      "total": 31348391,
+      "share": 0.0099
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 959600759,
+      "share": 0.3477
+    },
+    {
+      "area": "Public safety",
+      "total": 731776719,
+      "share": 0.2651
+    },
+    {
+      "area": "Human services",
+      "total": 331894703,
+      "share": 0.1203
+    },
+    {
+      "area": "Debt service",
+      "total": 295600729,
+      "share": 0.1071
+    },
+    {
+      "area": "Other",
+      "total": 257957367,
+      "share": 0.0935
+    },
+    {
+      "area": "General government",
+      "total": 183120974,
+      "share": 0.0663
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 123661552,
+      "benchmark": 123661552,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 127936054,
+      "benchmark": 125873449,
+      "population_growth": 0.0192,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0179
+    },
+    {
+      "year": 2018,
+      "actual": 130077296,
+      "benchmark": 129375784,
+      "population_growth": 0.021,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0278
+    },
+    {
+      "year": 2019,
+      "actual": 134488084,
+      "benchmark": 133860487,
+      "population_growth": 0.019,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0347
+    },
+    {
+      "year": 2020,
+      "actual": 150684717,
+      "benchmark": 139850111,
+      "population_growth": 0.0159,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0447
+    },
+    {
+      "year": 2021,
+      "actual": 161974077,
+      "benchmark": 144012962,
+      "population_growth": 0.0155,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0298
+    },
+    {
+      "year": 2022,
+      "actual": 167271894,
+      "benchmark": 148043866,
+      "population_growth": 0.0225,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.028
+    },
+    {
+      "year": 2023,
+      "actual": 173312327,
+      "benchmark": 160254280,
+      "population_growth": 0.0246,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0825
+    },
+    {
+      "year": 2024,
+      "actual": 227774992,
+      "benchmark": 179045056,
+      "population_growth": 0.0237,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1173
+    },
+    {
+      "year": 2025,
+      "actual": 238625786,
+      "benchmark": 188928449,
+      "population_growth": 0.0216,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0552
+    }
+  ]
+}

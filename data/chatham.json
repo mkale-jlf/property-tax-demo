@@ -1,0 +1,162 @@
+{
+  "place": "Chatham",
+  "label": "Chatham County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 108958872,
+  "difference_pct": 15.08,
+  "actual_property_tax_total": 831728765,
+  "benchmark_property_tax_total": 722769893,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 831728765,
+      "share": 0.4613
+    },
+    {
+      "area": "Sales taxes",
+      "total": 205799661,
+      "share": 0.1141
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 189516641,
+      "share": 0.1051
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 173291503,
+      "share": 0.0961
+    },
+    {
+      "area": "Sales & services",
+      "total": 165894297,
+      "share": 0.092
+    },
+    {
+      "area": "Other taxes",
+      "total": 130364106,
+      "share": 0.0723
+    },
+    {
+      "area": "Other",
+      "total": 106431185,
+      "share": 0.059
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 547006239,
+      "share": 0.3168
+    },
+    {
+      "area": "Public safety",
+      "total": 417169964,
+      "share": 0.2416
+    },
+    {
+      "area": "Other",
+      "total": 231377453,
+      "share": 0.134
+    },
+    {
+      "area": "Debt service",
+      "total": 198042404,
+      "share": 0.1147
+    },
+    {
+      "area": "Human services",
+      "total": 186095389,
+      "share": 0.1078
+    },
+    {
+      "area": "General government",
+      "total": 147125248,
+      "share": 0.0852
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 60182356,
+      "benchmark": 60182356,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 64152502,
+      "benchmark": 61735884,
+      "population_growth": 0.0271,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0258
+    },
+    {
+      "year": 2018,
+      "actual": 67122711,
+      "benchmark": 63470060,
+      "population_growth": 0.0213,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0281
+    },
+    {
+      "year": 2019,
+      "actual": 70367605,
+      "benchmark": 66051325,
+      "population_growth": 0.025,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0407
+    },
+    {
+      "year": 2020,
+      "actual": 77607735,
+      "benchmark": 69459320,
+      "population_growth": 0.0228,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0516
+    },
+    {
+      "year": 2021,
+      "actual": 81974219,
+      "benchmark": 71706246,
+      "population_growth": 0.0181,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0323
+    },
+    {
+      "year": 2022,
+      "actual": 92588704,
+      "benchmark": 73066658,
+      "population_growth": 0.0134,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.019
+    },
+    {
+      "year": 2023,
+      "actual": 96757366,
+      "benchmark": 77668290,
+      "population_growth": 0.0051,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.063
+    },
+    {
+      "year": 2024,
+      "actual": 104557481,
+      "benchmark": 87061112,
+      "population_growth": 0.0274,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1209
+    },
+    {
+      "year": 2025,
+      "actual": 116418086,
+      "benchmark": 92368643,
+      "population_growth": 0.0273,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.061
+    }
+  ]
+}

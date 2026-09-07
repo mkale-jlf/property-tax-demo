@@ -1,0 +1,162 @@
+{
+  "place": "New Hanover",
+  "label": "New Hanover County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 69943917,
+  "difference_pct": 3.5,
+  "actual_property_tax_total": 2068168694,
+  "benchmark_property_tax_total": 1998224777,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 2068168694,
+      "share": 0.3932
+    },
+    {
+      "area": "Sales taxes",
+      "total": 922808322,
+      "share": 0.1755
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 589210982,
+      "share": 0.112
+    },
+    {
+      "area": "Other",
+      "total": 575392430,
+      "share": 0.1094
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 522835114,
+      "share": 0.0994
+    },
+    {
+      "area": "Sales & services",
+      "total": 304358914,
+      "share": 0.0579
+    },
+    {
+      "area": "Other taxes",
+      "total": 276694806,
+      "share": 0.0526
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 1234445009,
+      "share": 0.2581
+    },
+    {
+      "area": "Public safety",
+      "total": 1029229910,
+      "share": 0.2152
+    },
+    {
+      "area": "Human services",
+      "total": 712182308,
+      "share": 0.1489
+    },
+    {
+      "area": "Other",
+      "total": 619344468,
+      "share": 0.1295
+    },
+    {
+      "area": "General government",
+      "total": 594127462,
+      "share": 0.1242
+    },
+    {
+      "area": "Debt service",
+      "total": 592686455,
+      "share": 0.1239
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 173515296,
+      "benchmark": 173515296,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 192075945,
+      "benchmark": 174774133,
+      "population_growth": 0.0085,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0073
+    },
+    {
+      "year": 2018,
+      "actual": 193173755,
+      "benchmark": 179588595,
+      "population_growth": 0.0208,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0275
+    },
+    {
+      "year": 2019,
+      "actual": 192409135,
+      "benchmark": 184942871,
+      "population_growth": 0.0142,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0298
+    },
+    {
+      "year": 2020,
+      "actual": 194534722,
+      "benchmark": 192121795,
+      "population_growth": 0.01,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0388
+    },
+    {
+      "year": 2021,
+      "actual": 201414295,
+      "benchmark": 194832382,
+      "population_growth": -0.0001,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0141
+    },
+    {
+      "year": 2022,
+      "actual": 230613128,
+      "benchmark": 197417642,
+      "population_growth": 0.0077,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0133
+    },
+    {
+      "year": 2023,
+      "actual": 225532159,
+      "benchmark": 212689469,
+      "population_growth": 0.0195,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0774
+    },
+    {
+      "year": 2024,
+      "actual": 229008854,
+      "benchmark": 237994256,
+      "population_growth": 0.0255,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.119
+    },
+    {
+      "year": 2025,
+      "actual": 235891405,
+      "benchmark": 250348338,
+      "population_growth": 0.0183,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0519
+    }
+  ]
+}

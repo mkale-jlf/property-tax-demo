@@ -157,8 +157,6 @@
           <div class="county-bar">
             <select id="countySelect" aria-label="Select county">
               <option value="" selected>--Select a County--</option>
-              <option value="mecklenburg">Mecklenburg County</option>
-              <option value="halifax">Halifax County</option>
             </select>
             <div class="grade-badge" id="gradeBadge" title=""></div>
           </div>
@@ -235,12 +233,11 @@ const ONEMAP_QUERY = "https://services.nconemap.gov/secure/rest/services/NC1Map_
 
 const NC_STFIPS = "37";
 
-// Registrar of selectable counties. `fips` is the full 5-digit STCOFIPS. Counties
-// without a data file render as neutral outlines and cannot be searched yet.
-const COUNTIES = {
-  "mecklenburg": { label: "Mecklenburg County", json: "data/mecklenburg.json", geo: "data/mecklenburg.geojson", benchmark: "data/mecklenburg_benchmark.json", fips: "37119", enabled: true },
-  "halifax": { label: "Halifax County", json: "data/halifax.json", geo: "data/halifax.geojson", benchmark: "data/halifax_benchmark.json", fips: "37083", enabled: true }
-};
+// Registrar of selectable counties. `fips` is the full 5-digit STCOFIPS.
+// Loaded from data/counties.json (all counties with complete 2016-2025 data).
+// Counties without a `benchmark` file render + preview, but the per-property
+// bill comparison is unavailable for them.
+let COUNTIES = {};
 const fmtMoney = (x) => "$" + Math.abs(x).toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + (x < 0 ? " less" : "");
 const pctSigned = (x) => (x > 0 ? "+" : "") + x.toFixed(1) + "%";
 const fmtBig = (x) => (x / 1e6).toLocaleString(undefined, { maximumFractionDigits: 1 }) + "M";
@@ -268,7 +265,10 @@ const byId = (id) => document.getElementById(id);
 
 // ---- data loading ----
 async function loadAll() {
-  const enabledKeys = Object.keys(COUNTIES).filter(k => COUNTIES[k].enabled);
+  const reg = await fetch("data/counties.json").then(r => r.json()).catch(e => { console.error("counties registry load failed", e); return {}; });
+  COUNTIES = reg;
+  populateCountySelect();
+  const enabledKeys = Object.keys(COUNTIES);
   const [nc, ...jsonArr] = await Promise.all([
     fetch("data/nc_counties.geojson").then(r => r.json()).catch(e => { console.error("nc counties load failed", e); return { type: "FeatureCollection", features: [] }; }),
     ...enabledKeys.map(k => fetch(COUNTIES[k].json).then(r => r.json()).catch(e => { console.error("county preload failed for " + k, e); return null; }))
@@ -277,6 +277,16 @@ async function loadAll() {
   enabledKeys.forEach((k, i) => { if (jsonArr[i]) refreshCountyData(COUNTIES[k].fips, jsonArr[i]); }); // color counties on load
   renderMap();
   recolorMap();
+}
+
+function populateCountySelect() {
+  const sel = byId("countySelect");
+  Object.keys(COUNTIES).forEach(k => {
+    const opt = document.createElement("option");
+    opt.value = k;
+    opt.textContent = COUNTIES[k].label;
+    sel.appendChild(opt);
+  });
 }
 
 // Store a county's presentation data for map coloring. `d` is a
@@ -311,10 +321,9 @@ async function selectCounty(key) {
 
   setStatus("Loading county…");
   try {
-    const [j, bm] = await Promise.all([
-      fetch(c.json).then(r => r.json()),
-      fetch(c.benchmark).then(r => r.json())
-    ]);
+    const jsonReq = fetch(c.json).then(r => r.json());
+    const isLoading = { json: jsonReq, bm: c.benchmark ? fetch(c.benchmark).then(r => r.json()) : Promise.resolve(null) };
+    const [j, bm] = await Promise.all([isLoading.json, isLoading.bm]);
     DATA = j; COUNTY = bm;
     refreshCountyData(c.fips, j);
     renderPanel(j);
@@ -416,7 +425,7 @@ function zoomToCounty(fips) {
 
 function selectCountyFromFips(fips) {
   for (const key in COUNTIES) {
-    if (COUNTIES[key].fips === fips && COUNTIES[key].enabled) {
+    if (COUNTIES[key].fips === fips) {
       byId("countySelect").value = key;
       selectCounty(key);
       return;
@@ -458,6 +467,7 @@ function renderSankey(d) {
 
 // ---- My Bill ----
 function fillDetails() {
+  if (!COUNTY) return;
   byId("dActualRate").textContent = COUNTY.r_actual.toFixed(4) + " per $100";
   byId("dLActual").textContent = "$" + COUNTY.l_actual.toLocaleString();
   byId("dX").textContent = "$" + COUNTY.x.toLocaleString();
@@ -529,7 +539,7 @@ async function inferCountyKey(q) {
   for (const f of feats) {
     const sfips = String(f.stcntyfips || "");
     for (const k in COUNTIES) {
-      if (COUNTIES[k].enabled && COUNTIES[k].fips === sfips) return k;
+      if (COUNTIES[k].fips === sfips) return k;
     }
   }
   return null;
@@ -549,7 +559,7 @@ async function searchAddress(query) {
 
     // Resolve the county: use the current selection, else infer it from the
     // address and auto-select that county.
-    let key = SELECTED && COUNTIES[SELECTED] && COUNTIES[SELECTED].enabled ? SELECTED : null;
+    let key = SELECTED && COUNTIES[SELECTED] ? SELECTED : null;
     if (!key) {
       key = await inferCountyKey(q);
       if (!key) { setStatus("No residential matches in a supported county. Try a street name or house number."); return; }
@@ -584,7 +594,6 @@ function renderCandidates(feats) {
 }
 
 function selectParcel(f) {
-  const vm = PT.computeComparison(f.parval, COUNTY);
   byId("rAddress").textContent = f.siteadd || "No address";
   byId("rParcel").textContent = f.parno;
   byId("rValue").textContent = "$" + (f.parval || 0).toLocaleString();
@@ -592,10 +601,22 @@ function selectParcel(f) {
   byId("rUse").textContent = (f.parusedesc || f.parusecode || "n/a");
   byId("billMeta").classList.remove("hidden");
 
-  // When the county as a whole was below the HB 1089 benchmark, a simple
-  // sentence replaces the three-box comparison. Otherwise show the boxes.
+  // Bill comparison needs a benchmark (official county rate/levy/base inputs).
   const sentence = byId("belowSentence");
   const cards = byId("billCards");
+  if (!COUNTY) {
+    sentence.textContent = "The per-property comparison is unavailable for this county yet.";
+    sentence.classList.remove("hidden");
+    cards.classList.add("hidden");
+    byId("billResults").classList.remove("hidden");
+    highlightParcel(f.parno);
+    return;
+  }
+
+  const vm = PT.computeComparison(f.parval, COUNTY);
+
+  // When the county as a whole was below the HB 1089 benchmark, a simple
+  // sentence replaces the three-box comparison. Otherwise show the boxes.
   if (vm.below_benchmark) {
     const c = SELECTED ? COUNTIES[SELECTED] : null;
     const nm = c ? c.label.replace(/ County$/, "") : "the county";

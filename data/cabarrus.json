@@ -1,0 +1,162 @@
+{
+  "place": "Cabarrus",
+  "label": "Cabarrus County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 238753023,
+  "difference_pct": 13.18,
+  "actual_property_tax_total": 2050673133,
+  "benchmark_property_tax_total": 1811920110,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 2050673133,
+      "share": 0.5111
+    },
+    {
+      "area": "Sales taxes",
+      "total": 620671670,
+      "share": 0.1547
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 582390171,
+      "share": 0.1452
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 444417738,
+      "share": 0.1108
+    },
+    {
+      "area": "Sales & services",
+      "total": 176849265,
+      "share": 0.0441
+    },
+    {
+      "area": "Other",
+      "total": 90996457,
+      "share": 0.0227
+    },
+    {
+      "area": "Other taxes",
+      "total": 45941557,
+      "share": 0.0115
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 1360253367,
+      "share": 0.3645
+    },
+    {
+      "area": "Public safety",
+      "total": 710747788,
+      "share": 0.1905
+    },
+    {
+      "area": "Debt service",
+      "total": 500189982,
+      "share": 0.134
+    },
+    {
+      "area": "Human services",
+      "total": 493203567,
+      "share": 0.1322
+    },
+    {
+      "area": "General government",
+      "total": 403336029,
+      "share": 0.1081
+    },
+    {
+      "area": "Other",
+      "total": 264193027,
+      "share": 0.0708
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 146963756,
+      "benchmark": 146963756,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 158093723,
+      "benchmark": 151121299,
+      "population_growth": 0.0296,
+      "inflation_growth": -0.0013,
+      "allowed_growth": 0.0283
+    },
+    {
+      "year": 2018,
+      "actual": 161654682,
+      "benchmark": 156890949,
+      "population_growth": 0.0314,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0382
+    },
+    {
+      "year": 2019,
+      "actual": 173559728,
+      "benchmark": 163666064,
+      "population_growth": 0.0275,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0432
+    },
+    {
+      "year": 2020,
+      "actual": 184784509,
+      "benchmark": 172408938,
+      "population_growth": 0.0246,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0534
+    },
+    {
+      "year": 2021,
+      "actual": 221568321,
+      "benchmark": 179035698,
+      "population_growth": 0.0242,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0384
+    },
+    {
+      "year": 2022,
+      "actual": 230127378,
+      "benchmark": 184645477,
+      "population_growth": 0.0258,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0313
+    },
+    {
+      "year": 2023,
+      "actual": 238841010,
+      "benchmark": 199672334,
+      "population_growth": 0.0235,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0814
+    },
+    {
+      "year": 2024,
+      "actual": 248330699,
+      "benchmark": 223017902,
+      "population_growth": 0.0234,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1169
+    },
+    {
+      "year": 2025,
+      "actual": 286749327,
+      "benchmark": 234497693,
+      "population_growth": 0.0178,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0515
+    }
+  ]
+}

@@ -5,10 +5,12 @@ required). It is a single page (`index.html`) with a **My Bill / County** toggle
 
 - **County** view — the county-level 2016–2025 pressure index: a visual **grade**
   (A–D), a revenue/spending **Sankey**, a Leaflet map, and a county selector
-  (Mecklenburg now, Halifax next).
-- **My Bill** view — enter a Mecklenburg address, pick the matching parcel, and see its
-  county tax at the actual 2025 county rate vs. a rate implied by a 2016-to-2025
-  inflation-plus-population benchmark, with annual difference and comparison bars.
+  covering all **71 counties** with complete 2016–2025 finance/population data.
+- **My Bill** view — enter a supported address, pick the matching parcel, and the
+  county is auto-selected. Where an official benchmark exists (Mecklenburg and
+  Halifax currently), its county tax at the actual 2025 county rate is compared
+  against a rate implied by a 2016-to-2025 inflation-plus-population benchmark; other
+  counties show a clean "unavailable" state instead of the dollar cards.
 
 ## How the county-level index works (index.html)
 
@@ -80,11 +82,14 @@ states, and address-search escaping/residential filtering.
 Requires R with `readr`, `dplyr`, `tidyr`, `stringr`, and `jsonlite`:
 
 ```
-Rscript export_mecklenburg.R
+Rscript export_county.R "Mecklenburg" data/mecklenburg.json
 ```
 
-This recomputes `data/mecklenburg.json` from the source CSVs in the Shiny app repo
-(`nc_property_tax_pressure_index/`).
+This recomputes `data/{county}.json` from the source CSVs in the Shiny app repo
+(`nc_property_tax_pressure_index/`). Run it once per county; `data/counties.json`
+(maintained separately) is the registry the page loads to list all 71 counties. The
+per-property benchmark files (`data/{county}_benchmark.json`) require official NCDOR
+rate/levy/taxable-base inputs and are only present where sourced.
 
 ## Local preview
 

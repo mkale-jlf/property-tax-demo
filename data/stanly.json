@@ -1,0 +1,162 @@
+{
+  "place": "Stanly",
+  "label": "Stanly County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 31660277,
+  "difference_pct": 8.61,
+  "actual_property_tax_total": 399499497,
+  "benchmark_property_tax_total": 367839220,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 399499497,
+      "share": 0.3952
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 207520311,
+      "share": 0.2053
+    },
+    {
+      "area": "Sales taxes",
+      "total": 148035018,
+      "share": 0.1464
+    },
+    {
+      "area": "Sales & services",
+      "total": 146986606,
+      "share": 0.1454
+    },
+    {
+      "area": "Other",
+      "total": 52988448,
+      "share": 0.0524
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 44812367,
+      "share": 0.0443
+    },
+    {
+      "area": "Other taxes",
+      "total": 11099134,
+      "share": 0.011
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 213887474,
+      "share": 0.2458
+    },
+    {
+      "area": "Education",
+      "total": 191313993,
+      "share": 0.2199
+    },
+    {
+      "area": "Human services",
+      "total": 165546958,
+      "share": 0.1903
+    },
+    {
+      "area": "Other",
+      "total": 144049114,
+      "share": 0.1656
+    },
+    {
+      "area": "General government",
+      "total": 98802473,
+      "share": 0.1136
+    },
+    {
+      "area": "Debt service",
+      "total": 56442505,
+      "share": 0.0649
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 32911521,
+      "benchmark": 32911521,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 33775443,
+      "benchmark": 32870362,
+      "population_growth": 0,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0013
+    },
+    {
+      "year": 2018,
+      "actual": 35489748,
+      "benchmark": 33267344,
+      "population_growth": 0.0053,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0121
+    },
+    {
+      "year": 2019,
+      "actual": 36377117,
+      "benchmark": 34238274,
+      "population_growth": 0.0135,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0292
+    },
+    {
+      "year": 2020,
+      "actual": 37146931,
+      "benchmark": 35422454,
+      "population_growth": 0.0057,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0346
+    },
+    {
+      "year": 2021,
+      "actual": 38939669,
+      "benchmark": 36237870,
+      "population_growth": 0.0088,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.023
+    },
+    {
+      "year": 2022,
+      "actual": 40805233,
+      "benchmark": 36473968,
+      "population_growth": 0.001,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0065
+    },
+    {
+      "year": 2023,
+      "actual": 44478210,
+      "benchmark": 38282351,
+      "population_growth": -0.0083,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0496
+    },
+    {
+      "year": 2024,
+      "actual": 48111547,
+      "benchmark": 42733731,
+      "population_growth": 0.0228,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1163
+    },
+    {
+      "year": 2025,
+      "actual": 51464078,
+      "benchmark": 45401345,
+      "population_growth": 0.0288,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0624
+    }
+  ]
+}

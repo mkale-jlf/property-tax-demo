@@ -1,0 +1,162 @@
+{
+  "place": "Jones",
+  "label": "Jones County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 7079651,
+  "difference_pct": 10.43,
+  "actual_property_tax_total": 74983605,
+  "benchmark_property_tax_total": 67903954,
+  "revenue": [
+    {
+      "area": "Intergovernmental",
+      "total": 90020351,
+      "share": 0.3551
+    },
+    {
+      "area": "Property taxes",
+      "total": 74983605,
+      "share": 0.2958
+    },
+    {
+      "area": "Sales & services",
+      "total": 24991134,
+      "share": 0.0986
+    },
+    {
+      "area": "Sales taxes",
+      "total": 23813380,
+      "share": 0.0939
+    },
+    {
+      "area": "Other",
+      "total": 21267625,
+      "share": 0.0839
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 16897824,
+      "share": 0.0667
+    },
+    {
+      "area": "Other taxes",
+      "total": 1506812,
+      "share": 0.0059
+    }
+  ],
+  "spending": [
+    {
+      "area": "Education",
+      "total": 71372550,
+      "share": 0.2993
+    },
+    {
+      "area": "Public safety",
+      "total": 60058748,
+      "share": 0.2519
+    },
+    {
+      "area": "Human services",
+      "total": 35058452,
+      "share": 0.147
+    },
+    {
+      "area": "Other",
+      "total": 34075197,
+      "share": 0.1429
+    },
+    {
+      "area": "General government",
+      "total": 25792193,
+      "share": 0.1082
+    },
+    {
+      "area": "Debt service",
+      "total": 12068734,
+      "share": 0.0506
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 6581392,
+      "benchmark": 6581392,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 6650724,
+      "benchmark": 6493398,
+      "population_growth": -0.0121,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0134
+    },
+    {
+      "year": 2018,
+      "actual": 7263574,
+      "benchmark": 6429421,
+      "population_growth": -0.0166,
+      "inflation_growth": 0.0068,
+      "allowed_growth": -0.0099
+    },
+    {
+      "year": 2019,
+      "actual": 6998803,
+      "benchmark": 6469270,
+      "population_growth": -0.0094,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0062
+    },
+    {
+      "year": 2020,
+      "actual": 7124868,
+      "benchmark": 6635518,
+      "population_growth": -0.0031,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0257
+    },
+    {
+      "year": 2021,
+      "actual": 6965967,
+      "benchmark": 6590546,
+      "population_growth": -0.021,
+      "inflation_growth": 0.0143,
+      "allowed_growth": -0.0068
+    },
+    {
+      "year": 2022,
+      "actual": 7176609,
+      "benchmark": 6490427,
+      "population_growth": -0.0207,
+      "inflation_growth": 0.0055,
+      "allowed_growth": -0.0152
+    },
+    {
+      "year": 2023,
+      "actual": 8265021,
+      "benchmark": 6801420,
+      "population_growth": -0.01,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0479
+    },
+    {
+      "year": 2024,
+      "actual": 8969605,
+      "benchmark": 7500728,
+      "population_growth": 0.0093,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1028
+    },
+    {
+      "year": 2025,
+      "actual": 8987042,
+      "benchmark": 7911834,
+      "population_growth": 0.0212,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0548
+    }
+  ]
+}

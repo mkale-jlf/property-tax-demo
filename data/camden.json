@@ -1,0 +1,162 @@
+{
+  "place": "Camden",
+  "label": "Camden County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 2,
+  "difference_dollars": 15979517,
+  "difference_pct": 19.55,
+  "actual_property_tax_total": 97719779,
+  "benchmark_property_tax_total": 81740262,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 97719779,
+      "share": 0.4015
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 38240804,
+      "share": 0.1571
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 31045476,
+      "share": 0.1276
+    },
+    {
+      "area": "Sales & services",
+      "total": 24114553,
+      "share": 0.0991
+    },
+    {
+      "area": "Other taxes",
+      "total": 20306167,
+      "share": 0.0834
+    },
+    {
+      "area": "Other",
+      "total": 16515565,
+      "share": 0.0679
+    },
+    {
+      "area": "Sales taxes",
+      "total": 15446469,
+      "share": 0.0635
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 50021330,
+      "share": 0.264
+    },
+    {
+      "area": "Other",
+      "total": 46674615,
+      "share": 0.2463
+    },
+    {
+      "area": "Education",
+      "total": 39346084,
+      "share": 0.2076
+    },
+    {
+      "area": "General government",
+      "total": 23283569,
+      "share": 0.1229
+    },
+    {
+      "area": "Human services",
+      "total": 18735795,
+      "share": 0.0989
+    },
+    {
+      "area": "Debt service",
+      "total": 11432061,
+      "share": 0.0603
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 7325931,
+      "benchmark": 7325931,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 7552215,
+      "benchmark": 7285231,
+      "population_growth": -0.0043,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0056
+    },
+    {
+      "year": 2018,
+      "actual": 7911868,
+      "benchmark": 7349280,
+      "population_growth": 0.002,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0088
+    },
+    {
+      "year": 2019,
+      "actual": 8396871,
+      "benchmark": 7463529,
+      "population_growth": -0.0001,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0155
+    },
+    {
+      "year": 2020,
+      "actual": 8651394,
+      "benchmark": 7769078,
+      "population_growth": 0.0121,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0409
+    },
+    {
+      "year": 2021,
+      "actual": 9082238,
+      "benchmark": 7981857,
+      "population_growth": 0.0131,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0274
+    },
+    {
+      "year": 2022,
+      "actual": 11755843,
+      "benchmark": 8106983,
+      "population_growth": 0.0101,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0157
+    },
+    {
+      "year": 2023,
+      "actual": 11234058,
+      "benchmark": 8690581,
+      "population_growth": 0.0141,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.072
+    },
+    {
+      "year": 2024,
+      "actual": 12701513,
+      "benchmark": 9676955,
+      "population_growth": 0.02,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1135
+    },
+    {
+      "year": 2025,
+      "actual": 13107848,
+      "benchmark": 10090838,
+      "population_growth": 0.0091,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0428
+    }
+  ]
+}

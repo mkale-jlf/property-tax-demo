@@ -1,0 +1,162 @@
+{
+  "place": "Rockingham",
+  "label": "Rockingham County",
+  "geography": "County",
+  "period": "2016-2025",
+  "score": 1,
+  "difference_dollars": 29411551,
+  "difference_pct": 5.07,
+  "actual_property_tax_total": 609380832,
+  "benchmark_property_tax_total": 579969281,
+  "revenue": [
+    {
+      "area": "Property taxes",
+      "total": 609380832,
+      "share": 0.4738
+    },
+    {
+      "area": "Intergovernmental",
+      "total": 268337099,
+      "share": 0.2086
+    },
+    {
+      "area": "Sales taxes",
+      "total": 187139835,
+      "share": 0.1455
+    },
+    {
+      "area": "Sales & services",
+      "total": 125281553,
+      "share": 0.0974
+    },
+    {
+      "area": "Other",
+      "total": 50174255,
+      "share": 0.039
+    },
+    {
+      "area": "Debt proceeds",
+      "total": 39563214,
+      "share": 0.0308
+    },
+    {
+      "area": "Other taxes",
+      "total": 6222701,
+      "share": 0.0048
+    }
+  ],
+  "spending": [
+    {
+      "area": "Public safety",
+      "total": 301379233,
+      "share": 0.2597
+    },
+    {
+      "area": "Human services",
+      "total": 252024911,
+      "share": 0.2172
+    },
+    {
+      "area": "Education",
+      "total": 250333642,
+      "share": 0.2157
+    },
+    {
+      "area": "General government",
+      "total": 139082083,
+      "share": 0.1199
+    },
+    {
+      "area": "Other",
+      "total": 125395197,
+      "share": 0.1081
+    },
+    {
+      "area": "Debt service",
+      "total": 92196028,
+      "share": 0.0795
+    }
+  ],
+  "benchmark_by_year": [
+    {
+      "year": 2016,
+      "actual": 53861141,
+      "benchmark": 53861141,
+      "population_growth": 0,
+      "inflation_growth": 0,
+      "allowed_growth": 0
+    },
+    {
+      "year": 2017,
+      "actual": 55210079,
+      "benchmark": 53492978,
+      "population_growth": -0.0056,
+      "inflation_growth": -0.0013,
+      "allowed_growth": -0.0068
+    },
+    {
+      "year": 2018,
+      "actual": 55652531,
+      "benchmark": 53702834,
+      "population_growth": -0.0029,
+      "inflation_growth": 0.0068,
+      "allowed_growth": 0.0039
+    },
+    {
+      "year": 2019,
+      "actual": 56191552,
+      "benchmark": 54191415,
+      "population_growth": -0.0065,
+      "inflation_growth": 0.0156,
+      "allowed_growth": 0.0091
+    },
+    {
+      "year": 2020,
+      "actual": 58127472,
+      "benchmark": 55824429,
+      "population_growth": 0.0013,
+      "inflation_growth": 0.0288,
+      "allowed_growth": 0.0301
+    },
+    {
+      "year": 2021,
+      "actual": 59776047,
+      "benchmark": 56712914,
+      "population_growth": 0.0017,
+      "inflation_growth": 0.0143,
+      "allowed_growth": 0.0159
+    },
+    {
+      "year": 2022,
+      "actual": 61131771,
+      "benchmark": 57040661,
+      "population_growth": 0.0002,
+      "inflation_growth": 0.0055,
+      "allowed_growth": 0.0058
+    },
+    {
+      "year": 2023,
+      "actual": 64071467,
+      "benchmark": 59785030,
+      "population_growth": -0.0098,
+      "inflation_growth": 0.0579,
+      "allowed_growth": 0.0481
+    },
+    {
+      "year": 2024,
+      "actual": 66055815,
+      "benchmark": 66220163,
+      "population_growth": 0.0141,
+      "inflation_growth": 0.0935,
+      "allowed_growth": 0.1076
+    },
+    {
+      "year": 2025,
+      "actual": 79302957,
+      "benchmark": 69137716,
+      "population_growth": 0.0104,
+      "inflation_growth": 0.0336,
+      "allowed_growth": 0.0441
+    }
+  ]
+}
