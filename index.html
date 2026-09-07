@@ -11,16 +11,13 @@
 <script src="calc.js"></script>
 <style>
   * { box-sizing: border-box; }
-  html, body { height: 100%; margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f4f4f4; color: #222; }
+  html, body { height: 100%; margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f3f4e7; color: #1a1919; }
   #header {
     display: flex; align-items: center; gap: 18px; padding: 12px 20px;
-    background: #1f2a35; color: #fff; flex-wrap: wrap;
+    background: #00467f; color: #fff; flex-wrap: wrap;
   }
   #header .brand { font-size: 18px; font-weight: 900; letter-spacing: -0.2px; margin-right: auto; }
-  #header .brand .sub { display: block; font-size: 11px; font-weight: 600; color: #9fb2c4; letter-spacing: .5px; }
-  #header .hdr-right { display: flex; align-items: center; gap: 16px; }
-  #header .hdr-right a.meth { color: #9fb2c4; font-size: 12.5px; font-weight: 600; text-decoration: none; letter-spacing: .3px; }
-  #header .hdr-right a.meth:hover { color: #fff; text-decoration: underline; }
+  #header .brand .sub { display: block; font-size: 11px; font-weight: 600; color: #d3e6f5; letter-spacing: .5px; }
   #header .hdr-right img.logo { height: 30px; width: auto; display: block; }
   #app {
     display: grid;
@@ -67,21 +64,22 @@
     border-radius: 4px; font-size: 12px; pointer-events: none; z-index: 1000; display: none;
   }
   .outline-note { font-size: 12px; color: #888; margin-top: 10px; line-height: 1.45; }
-  .outline-note a { color: #315C8C; font-weight: 600; }
+  .outline-note a { color: #00467f; font-weight: 600; }
 
   /* My Bill left panel */
   .search-row { display: flex; gap: 8px; }
   #addrInput { flex: 1; font-size: 15px; padding: 11px 12px; border: 1px solid #cfcfcf; border-radius: 6px; min-width: 0; }
   #addrInput:disabled { background: #eee; color: #999; }
-  #searchBtn { font-size: 15px; font-weight: 700; padding: 11px 16px; border: none; border-radius: 6px; background: #315C8C; color: #fff; cursor: pointer; white-space: nowrap; }
+  #searchBtn { font-size: 15px; font-weight: 700; padding: 11px 16px; border: none; border-radius: 6px; background: #00467f; color: #fff; cursor: pointer; white-space: nowrap; }
+  #searchBtn:hover { background: #00325c; }
   #searchBtn:disabled { background: #9AA7B5; cursor: default; }
-  .hint { font-size: 12.5px; color: #888; margin: 8px 0 0; line-height: 1.4; }
+  .hint { font-size: 12.5px; color: #5a6a7a; margin: 8px 0 0; line-height: 1.4; }
   #status { font-size: 13px; color: #555; margin: 12px 0 0; min-height: 18px; }
   .cands { list-style: none; margin: 10px 0 0; padding: 0; }
   .cands li { width: 100%; text-align: left; border: 1px solid #e0e0e0; border-radius: 6px; background: #fafafa; padding: 9px 11px; margin-bottom: 7px; cursor: pointer; font-size: 13px; }
-  .cands li:hover { border-color: #315C8C; background: #eef3fa; }
+  .cands li:hover { border-color: #00467f; background: #d3e6f5; }
   .cands li .pid { color: #777; font-size: 12px; }
-  .cands li .val { color: #315C8C; font-weight: 700; }
+  .cands li .val { color: #00467f; font-weight: 700; }
   #nores.hidden, #billResults.hidden, #countyPanel.hidden, .hidden { display: none !important; }
   .prop-line { font-size: 13.5px; color: #444; margin: 0 0 3px; }
   .prop-line b { color: #222; }
@@ -94,15 +92,15 @@
   .bill-card .lab { font-size: 12px; color: #777; font-weight: 700; letter-spacing: .3px; text-transform: uppercase; margin-bottom: 10px; }
   .bill-card .amt { font-size: 30px; font-weight: 900; line-height: 1.1; }
   .bill-card .diff-note { margin-top: 10px; font-size: 13.5px; line-height: 1.4; font-weight: 700; }
-  .bill-card.pos { background: #eef4ee; border-color: #cddccd; }
-  .bill-card.pos .amt, .bill-card.pos .diff-note { color: #2c6e2c; }
-  .bill-card.neg { background: #fbeceb; border-color: #e6bfbc; }
-  .bill-card.neg .amt, .bill-card.neg .diff-note { color: #c0392b; }
-  .below-sentence { margin-top: 26px; padding: 22px 20px; border-radius: 12px; background: #eef4ee; border: 1px solid #cddcdd; color: #2c6e2c; font-size: 17px; font-weight: 700; line-height: 1.45; }
+  .bill-card.pos { background: #e7f5ec; border-color: #a7dcbe; }
+  .bill-card.pos .amt, .bill-card.pos .diff-note { color: #04843d; }
+  .bill-card.neg { background: #fdefef; border-color: #fcb4b4; }
+  .bill-card.neg .amt, .bill-card.neg .diff-note { color: #c41230; }
+  .below-sentence { margin-top: 26px; padding: 22px 20px; border-radius: 12px; background: #e7f5ec; border: 1px solid #a7dcbe; color: #04843d; font-size: 17px; font-weight: 700; line-height: 1.45; }
   .detail-item { font-size: 13.5px; margin: 4px 0; color: #444; }
   .detail-item b { color: #222; }
   .sources { font-size: 12.5px; line-height: 1.6; }
-  .sources a { color: #315C8C; }
+  .sources a { color: #00467f; }
   table.t { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
   table.t th, table.t td { border: 1px solid #e6e6e6; padding: 4px 6px; text-align: right; }
   table.t th:first-child, table.t td:first-child { text-align: left; }
@@ -128,7 +126,6 @@
 <header id="header">
   <div class="brand">NC Property Tax<span class="sub">Understanding HB 1089</span></div>
   <div class="hdr-right">
-    <a class="meth" href="docs/methodology.pdf" target="_blank" rel="noopener">Methodology</a>
     <img class="logo" src="Locke-revised-logo-white.png" alt="John Locke Foundation" />
   </div>
 </header>
@@ -148,7 +145,7 @@
           <div id="status" role="status"></div>
           <ul class="cands" id="cands"></ul>
           <div id="nores" class="hidden">
-            <p class="note" style="color:#8a3b3b;">No residential properties matched in a supported county. Check the spelling or try a nearby street name.</p>
+            <p class="note" style="color:#c41230;">No residential properties matched in a supported county. Check the spelling or try a nearby street name.</p>
           </div>
           <div id="billMeta" class="hidden">
             <div class="rule" style="height:1px;background:#e2e2e2;margin:14px 0;"></div>
@@ -228,14 +225,14 @@
 </div>
 
 <script>
-const GRADE = { "0": { g: "A", c: "#54B978" }, "1": { g: "B", c: "#FFC640" }, "2": { g: "C", c: "#F58B4B" }, "3": { g: "D", c: "#F05252" } };
+const GRADE = { "0": { g: "A", c: "#04843d" }, "1": { g: "B", c: "#d3a11c" }, "2": { g: "C", c: "#c46314" }, "3": { g: "D", c: "#c41230" } };
 const GRADE_NA = { g: "N/A", c: "#BDBDBD" };
 const BUCKET_COLORS = {
-  "Property taxes":"#315C8C","Other taxes":"#7BA9D6","Sales taxes":"#4F8C5E",
-  "Sales & services":"#9DC183","Intergovernmental":"#D9A441","Debt proceeds":"#9A6FB0",
-  "Education":"#315C8C","Debt service":"#9A6FB0","Human services":"#D9A441",
-  "General government":"#8A8A8A","Public safety":"#B64F4F","Utilities":"#4E9A9A",
-  "Transportation":"#C97842","Other":"#6F6F6F"
+  "Property taxes":"#00467f","Other taxes":"#7BA9D6","Sales taxes":"#04843d",
+  "Sales & services":"#a7dcbe","Intergovernmental":"#d3a11c","Debt proceeds":"#9A6FB0",
+  "Education":"#00467f","Debt service":"#9A6FB0","Human services":"#d3a11c",
+  "General government":"#8A8A8A","Public safety":"#c41230","Utilities":"#4E9A9A",
+  "Transportation":"#c46314","Other":"#6F6F6F"
 };
 
 const ONEMAP_QUERY = "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0/query";
@@ -664,7 +661,7 @@ async function highlightParcel(parno) {
     if (!gj.features || !gj.features.length) return;
     const fc = gj.features.length === 1 ? gj : { type: "FeatureCollection", features: gj.features };
     if (PARCEL_LAYER) { MAP.removeLayer(PARCEL_LAYER); PARCEL_LAYER = null; }
-    PARCEL_LAYER = L.geoJSON(fc, { style: { fillColor: "#F05252", fillOpacity: 0.55, weight: 3, color: "#B30000" } }).addTo(MAP);
+    PARCEL_LAYER = L.geoJSON(fc, { style: { fillColor: "#c41230", fillOpacity: 0.55, weight: 3, color: "#7e0b1d" } }).addTo(MAP);
     PARCEL_LAYER.bindTooltip(`<strong>${featLabel(fc.features[0])}</strong>`);
     PARCEL_LAYER.getBounds().isValid() && MAP.fitBounds(PARCEL_LAYER.getBounds(), { padding: [30, 30], maxZoom: 18 });
   } catch (err) {
