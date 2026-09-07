@@ -16,8 +16,8 @@
     display: flex; align-items: center; gap: 18px; padding: 12px 20px;
     background: #00467f; color: #fff; flex-wrap: wrap;
   }
-  #header .brand { font-size: 18px; font-weight: 900; letter-spacing: -0.2px; margin-right: auto; }
-  #header .brand .sub { display: block; font-size: 11px; font-weight: 600; color: #d3e6f5; letter-spacing: .5px; }
+  #header .brand { font-size: 18px; font-weight: 900; letter-spacing: -0.2px; margin-right: auto; display: flex; align-items: baseline; flex-wrap: wrap; gap: 0 2px; }
+  #header .brand .sub { font-size: 12px; font-weight: 600; color: #d3e6f5; letter-spacing: .5px; }
   #header .hdr-right img.logo { height: 30px; width: auto; display: block; }
   #app {
     display: grid;
@@ -124,7 +124,7 @@
 </head>
 <body>
 <header id="header">
-  <div class="brand">NC Property Tax<span class="sub">Understanding HB 1089</span></div>
+  <div class="brand">NC Property Tax<span class="sub">&nbsp;&mdash;&nbsp;Understanding HB 1089</span></div>
   <div class="hdr-right">
     <img class="logo" src="Locke-revised-logo-white.png" alt="John Locke Foundation" />
   </div>
