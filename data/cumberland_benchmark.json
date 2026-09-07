@@ -1,0 +1,88 @@
+{
+  "county": "Cumberland County, NC",
+  "fips": "051",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.499,
+  "r_2016": 0.74,
+  "x": 40818103706,
+  "l_actual": 212000554,
+  "l_2016": 175122151,
+  "b_endpoint": 238185707.46,
+  "l_scenario": 212000554,
+  "r_scenario": 0.5194,
+  "rate_reconciliation_pct": -3.924,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.00605592,
+      "growth": 0.01524762,
+      "benchmark_levy": 177792347.84
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00842021,
+      "growth": 0.03284498,
+      "benchmark_levy": 183631933.94
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00606586,
+      "growth": 0.02418563,
+      "benchmark_levy": 188073187.26
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": 0.00141446,
+      "growth": 0.0137513,
+      "benchmark_levy": 190659438.58
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.00729674,
+      "growth": 0.05427696,
+      "benchmark_levy": 201007854.2
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": -0.00276322,
+      "growth": 0.07726409,
+      "benchmark_levy": 216538542.94
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": -0.00261727,
+      "growth": 0.03854724,
+      "benchmark_levy": 224885506.9
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": -0.00114621,
+      "growth": 0.02834818,
+      "benchmark_levy": 231260602.41
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00363234,
+      "growth": 0.02994503,
+      "benchmark_levy": 238185707.46
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Cumberland County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

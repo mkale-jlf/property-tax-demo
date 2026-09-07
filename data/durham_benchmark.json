@@ -1,0 +1,88 @@
+{
+  "county": "Durham County, NC",
+  "fips": "063",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.5542,
+  "r_2016": 0.7404,
+  "x": 85900023146,
+  "l_actual": 483021156,
+  "l_2016": 261576069,
+  "b_endpoint": 393869616.38,
+  "l_scenario": 393869616.38,
+  "r_scenario": 0.4585,
+  "rate_reconciliation_pct": -1.442,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.01415427,
+      "growth": 0.03545781,
+      "benchmark_levy": 270850983.79
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.01604015,
+      "growth": 0.04046492,
+      "benchmark_levy": 281810946.29
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.01729569,
+      "growth": 0.03541545,
+      "benchmark_levy": 291791408.41
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.00156052,
+      "growth": 0.01077632,
+      "benchmark_levy": 294935846.18
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.0131146,
+      "growth": 0.06009483,
+      "benchmark_levy": 312659965.83
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01359376,
+      "growth": 0.09362107,
+      "benchmark_levy": 341931526.32
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01429024,
+      "growth": 0.05545476,
+      "benchmark_levy": 360893255.44
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.0191951,
+      "growth": 0.04868949,
+      "benchmark_levy": 378464963.74
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.0143903,
+      "growth": 0.04070298,
+      "benchmark_levy": 393869616.38
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Durham County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "county": "Beaufort County, NC",
+  "fips": "013",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.445,
+  "r_2016": 0.55,
+  "x": 9629636325,
+  "l_actual": 43845067,
+  "l_2016": 32521444,
+  "b_endpoint": 41145587.26,
+  "l_scenario": 41145587.26,
+  "r_scenario": 0.4273,
+  "rate_reconciliation_pct": -2.265,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.00653912,
+      "growth": 0.01476443,
+      "benchmark_levy": 33001604.47
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00063698,
+      "growth": 0.02506175,
+      "benchmark_levy": 33828682.59
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": -0.0006578,
+      "growth": 0.01746197,
+      "benchmark_levy": 34419397.99
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.05100221,
+      "growth": -0.03866537,
+      "benchmark_levy": 33088559.35
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": -0.00440775,
+      "growth": 0.04257248,
+      "benchmark_levy": 34497221.33
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": -0.00312381,
+      "growth": 0.0769035,
+      "benchmark_levy": 37150178.5
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00338158,
+      "growth": 0.04454609,
+      "benchmark_levy": 38805073.63
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00498787,
+      "growth": 0.03448226,
+      "benchmark_levy": 40143160.21
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": -0.00134138,
+      "growth": 0.0249713,
+      "benchmark_levy": 41145587.26
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Beaufort County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "county": "Guilford County, NC",
+  "fips": "081",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.7305,
+  "r_2016": 0.755,
+  "x": 75161295696,
+  "l_actual": 549532480,
+  "l_2016": 363350368,
+  "b_endpoint": 521238111.99,
+  "l_scenario": 521238111.99,
+  "r_scenario": 0.6935,
+  "rate_reconciliation_pct": -0.087,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.00782048,
+      "growth": 0.02912403,
+      "benchmark_levy": 373932594.58
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00874349,
+      "growth": 0.03316826,
+      "benchmark_levy": 386335287.84
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00867895,
+      "growth": 0.02679872,
+      "benchmark_levy": 396688578.81
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": 0.00158774,
+      "growth": 0.01392458,
+      "benchmark_levy": 402212300.74
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.00628334,
+      "growth": 0.05326357,
+      "benchmark_levy": 423635564.34
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.0082603,
+      "growth": 0.08828761,
+      "benchmark_levy": 461037335.91
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00889517,
+      "growth": 0.05005968,
+      "benchmark_levy": 484116716.17
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.01016953,
+      "growth": 0.03966393,
+      "benchmark_levy": 503318685.68
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00928986,
+      "growth": 0.03560255,
+      "benchmark_levy": 521238111.99
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Guilford County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

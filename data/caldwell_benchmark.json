@@ -1,0 +1,88 @@
+{
+  "county": "Caldwell County, NC",
+  "fips": "027",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.4975,
+  "r_2016": 0.63,
+  "x": 12156498807,
+  "l_actual": 60478582,
+  "l_2016": 42145751,
+  "b_endpoint": 56037071.74,
+  "l_scenario": 56037071.74,
+  "r_scenario": 0.461,
+  "rate_reconciliation_pct": -0,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.00161312,
+      "growth": 0.02291667,
+      "benchmark_levy": 43111591.07
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00189114,
+      "growth": 0.02631591,
+      "benchmark_levy": 44246112.03
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00193629,
+      "growth": 0.02005605,
+      "benchmark_levy": 45133514.31
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.02057733,
+      "growth": -0.00824049,
+      "benchmark_levy": 44761592.02
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": -0.00065772,
+      "growth": 0.04632251,
+      "benchmark_levy": 46835061.48
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": -0.00286853,
+      "growth": 0.07715878,
+      "benchmark_levy": 50448797.57
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00449575,
+      "growth": 0.04566026,
+      "benchmark_levy": 52752303.01
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00241759,
+      "growth": 0.03191198,
+      "benchmark_levy": 54435733.25
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00310436,
+      "growth": 0.02941705,
+      "benchmark_levy": 56037071.74
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Caldwell County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "county": "Moore County, NC",
+  "fips": "125",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.295,
+  "r_2016": 0.465,
+  "x": 23647846740,
+  "l_actual": 70000523,
+  "l_2016": 56581360,
+  "b_endpoint": 87476545.82,
+  "l_scenario": 70000523,
+  "r_scenario": 0.296,
+  "rate_reconciliation_pct": -0.342,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.02009261,
+      "growth": 0.04139615,
+      "benchmark_levy": 58923610.55
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.01627711,
+      "growth": 0.04070188,
+      "benchmark_levy": 61321912.45
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.02229161,
+      "growth": 0.04041138,
+      "benchmark_levy": 63800015.28
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.00861941,
+      "growth": 0.00371743,
+      "benchmark_levy": 64037187.39
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.02752879,
+      "growth": 0.07450902,
+      "benchmark_levy": 68808535.4
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.02356001,
+      "growth": 0.10358732,
+      "benchmark_levy": 75936226.87
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01356604,
+      "growth": 0.05473055,
+      "benchmark_levy": 80092258.3
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.01373053,
+      "growth": 0.04322492,
+      "benchmark_levy": 83554240.14
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.02063054,
+      "growth": 0.04694323,
+      "benchmark_levy": 87476545.82
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Moore County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

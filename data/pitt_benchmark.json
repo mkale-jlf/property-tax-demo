@@ -1,0 +1,88 @@
+{
+  "county": "Pitt County, NC",
+  "fips": "147",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.5663,
+  "r_2016": 0.686,
+  "x": 24131014296,
+  "l_actual": 136841369,
+  "l_2016": 85486689,
+  "b_endpoint": 118080831.49,
+  "l_scenario": 118080831.49,
+  "r_scenario": 0.4893,
+  "rate_reconciliation_pct": -0.137,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.00772741,
+      "growth": 0.02903095,
+      "benchmark_levy": 87968449.13
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00566436,
+      "growth": 0.03008913,
+      "benchmark_levy": 90615343.26
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00881602,
+      "growth": 0.02693578,
+      "benchmark_levy": 93056138.34
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.04201217,
+      "growth": -0.02967533,
+      "benchmark_levy": 90294666.85
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.01059651,
+      "growth": 0.05757674,
+      "benchmark_levy": 95493539.72
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00881002,
+      "growth": 0.08883733,
+      "benchmark_levy": 103976930.79
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00987414,
+      "growth": 0.05103866,
+      "benchmark_levy": 109283773.52
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.0117801,
+      "growth": 0.0412745,
+      "benchmark_levy": 113794406.19
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.01135547,
+      "growth": 0.03766815,
+      "benchmark_levy": 118080831.49
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Pitt County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

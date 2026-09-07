@@ -1,0 +1,88 @@
+{
+  "county": "Wake County, NC",
+  "fips": "183",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.5171,
+  "r_2016": 0.6005,
+  "x": 311698513683,
+  "l_actual": 1612589315,
+  "l_2016": 847294946,
+  "b_endpoint": 1354530593.46,
+  "l_scenario": 1354530593.46,
+  "r_scenario": 0.4346,
+  "rate_reconciliation_pct": -0.049,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.02243232,
+      "growth": 0.04373586,
+      "benchmark_levy": 884352123.03
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.0184053,
+      "growth": 0.04283007,
+      "benchmark_levy": 922228985.04
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.01885457,
+      "growth": 0.03697434,
+      "benchmark_levy": 956327789.96
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": 0.01627254,
+      "growth": 0.02860938,
+      "benchmark_levy": 983687735.97
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.01958435,
+      "growth": 0.06656458,
+      "benchmark_levy": 1049166495.68
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01733054,
+      "growth": 0.09735785,
+      "benchmark_levy": 1151311092.51
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.02352532,
+      "growth": 0.06468983,
+      "benchmark_levy": 1225789212.4
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.02402489,
+      "growth": 0.05351928,
+      "benchmark_levy": 1291392566.15
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.02257874,
+      "growth": 0.04889143,
+      "benchmark_levy": 1354530593.46
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Wake County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

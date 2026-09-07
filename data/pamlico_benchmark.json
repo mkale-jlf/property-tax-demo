@@ -1,0 +1,88 @@
+{
+  "county": "Pamlico County, NC",
+  "fips": "137",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.645,
+  "r_2016": 0.625,
+  "x": 2118380188,
+  "l_actual": 13670778,
+  "l_2016": 10380645,
+  "b_endpoint": 13906532.2,
+  "l_scenario": 13670778,
+  "r_scenario": 0.6453,
+  "rate_reconciliation_pct": -0.053,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.01096234,
+      "growth": 0.01034121,
+      "benchmark_levy": 10487993.42
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": -0.00245428,
+      "growth": 0.02197049,
+      "benchmark_levy": 10718419.8
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00396825,
+      "growth": 0.02208802,
+      "benchmark_levy": 10955168.46
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.02703557,
+      "growth": -0.01469873,
+      "benchmark_levy": 10794141.39
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.00438739,
+      "growth": 0.05136762,
+      "benchmark_levy": 11348610.73
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": -0.00865556,
+      "growth": 0.07137175,
+      "benchmark_levy": 12158580.96
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01436149,
+      "growth": 0.055526,
+      "benchmark_levy": 12833698.28
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.02067412,
+      "growth": 0.05016851,
+      "benchmark_levy": 13477545.83
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00551702,
+      "growth": 0.03182971,
+      "benchmark_levy": 13906532.2
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Pamlico County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "county": "Iredell County, NC",
+  "fips": "097",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.5,
+  "r_2016": 0.5275,
+  "x": 44377519044,
+  "l_actual": 222019214,
+  "l_2016": 116546946,
+  "b_endpoint": 190639612.77,
+  "l_scenario": 190639612.77,
+  "r_scenario": 0.4296,
+  "rate_reconciliation_pct": -0.059,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.01780417,
+      "growth": 0.03910772,
+      "benchmark_levy": 121104830.96
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.01528408,
+      "growth": 0.03970885,
+      "benchmark_levy": 125913764.57
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.01966831,
+      "growth": 0.03778807,
+      "benchmark_levy": 130671803.14
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": 0.0319466,
+      "growth": 0.04428344,
+      "benchmark_levy": 136458400.08
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.02402545,
+      "growth": 0.07100568,
+      "benchmark_levy": 146147721.15
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01987668,
+      "growth": 0.09990399,
+      "benchmark_levy": 160748461.71
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.02040764,
+      "growth": 0.06157215,
+      "benchmark_levy": 170646090.71
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.03056924,
+      "growth": 0.06006363,
+      "benchmark_levy": 180895713.85
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.02755205,
+      "growth": 0.05386473,
+      "benchmark_levy": 190639612.77
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Iredell County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "county": "Clay County, NC",
+  "fips": "043",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.43,
+  "r_2016": 0.36,
+  "x": 2274566422,
+  "l_actual": 9784057,
+  "l_2016": 7683145,
+  "b_endpoint": 11639773.45,
+  "l_scenario": 9784057,
+  "r_scenario": 0.4302,
+  "rate_reconciliation_pct": -0.035,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.0229949,
+      "growth": 0.04429845,
+      "benchmark_levy": 8023496.38
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.01051391,
+      "growth": 0.03493868,
+      "benchmark_levy": 8303826.79
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.01148085,
+      "growth": 0.02960062,
+      "benchmark_levy": 8549625.18
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.01205995,
+      "growth": 0.0002769,
+      "benchmark_levy": 8551992.54
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.02109326,
+      "growth": 0.06807349,
+      "benchmark_levy": 9134156.5
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01916315,
+      "growth": 0.09919046,
+      "benchmark_levy": 10040177.68
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.02035536,
+      "growth": 0.06151987,
+      "benchmark_levy": 10657848.08
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.0114962,
+      "growth": 0.04099059,
+      "benchmark_levy": 11094719.54
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.02281464,
+      "growth": 0.04912733,
+      "benchmark_levy": 11639773.45
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Clay County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

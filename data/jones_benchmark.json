@@ -1,0 +1,88 @@
+{
+  "county": "Jones County, NC",
+  "fips": "103",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.74,
+  "r_2016": 0.79,
+  "x": 1221440110,
+  "l_actual": 9045619,
+  "l_2016": 6502556,
+  "b_endpoint": 8716746.45,
+  "l_scenario": 8716746.45,
+  "r_scenario": 0.7136,
+  "rate_reconciliation_pct": -0.077,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.00219413,
+      "growth": 0.01910942,
+      "benchmark_levy": 6626816.06
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00073298,
+      "growth": 0.02515776,
+      "benchmark_levy": 6793531.88
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": -0.02281051,
+      "growth": -0.00469074,
+      "benchmark_levy": 6761665.19
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.02023771,
+      "growth": -0.00790087,
+      "benchmark_levy": 6708242.14
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.00721311,
+      "growth": 0.05419334,
+      "benchmark_levy": 7071784.21
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00336372,
+      "growth": 0.08339102,
+      "benchmark_levy": 7661507.54
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.02173678,
+      "growth": 0.06290129,
+      "benchmark_levy": 8143426.26
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00550381,
+      "growth": 0.0349982,
+      "benchmark_levy": 8428431.53
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00789474,
+      "growth": 0.03420742,
+      "benchmark_levy": 8716746.45
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Jones County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

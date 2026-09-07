@@ -1,0 +1,88 @@
+{
+  "county": "Franklin County, NC",
+  "fips": "069",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.505,
+  "r_2016": 0.925,
+  "x": 13336167553,
+  "l_actual": 67453484,
+  "l_2016": 43218142,
+  "b_endpoint": 72886150.52,
+  "l_scenario": 67453484,
+  "r_scenario": 0.5058,
+  "rate_reconciliation_pct": -0.157,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.02309797,
+      "growth": 0.04440152,
+      "benchmark_levy": 45137093.13
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.02222894,
+      "growth": 0.04665371,
+      "benchmark_levy": 47242905.98
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.03147267,
+      "growth": 0.04959243,
+      "benchmark_levy": 49585796.59
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.01069151,
+      "growth": 0.00164533,
+      "benchmark_levy": 49667381.76
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.03865042,
+      "growth": 0.08563065,
+      "benchmark_levy": 53920432
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.03622188,
+      "growth": 0.11624919,
+      "benchmark_levy": 60188638.41
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.0369478,
+      "growth": 0.07811231,
+      "benchmark_levy": 64890112.18
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.03752645,
+      "growth": 0.06702084,
+      "benchmark_levy": 69239101.92
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.02636057,
+      "growth": 0.05267325,
+      "benchmark_levy": 72886150.52
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Franklin County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

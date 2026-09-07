@@ -1,0 +1,88 @@
+{
+  "county": "Bladen County, NC",
+  "fips": "017",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.785,
+  "r_2016": 0.82,
+  "x": 3722356134,
+  "l_actual": 29256108,
+  "l_2016": 22428819,
+  "b_endpoint": 26868833.69,
+  "l_scenario": 26868833.69,
+  "r_scenario": 0.7218,
+  "rate_reconciliation_pct": -0.122,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.00626913,
+      "growth": 0.01503442,
+      "benchmark_levy": 22766023.25
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": -0.00828201,
+      "growth": 0.01614276,
+      "benchmark_levy": 23133529.81
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": -0.00919533,
+      "growth": 0.00892443,
+      "benchmark_levy": 23339983.44
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.09846641,
+      "growth": -0.08612957,
+      "benchmark_levy": 21329720.81
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": -0.00327393,
+      "growth": 0.0437063,
+      "benchmark_levy": 22261963.96
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": -0.00579053,
+      "growth": 0.07423678,
+      "benchmark_levy": 23914620.58
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00769755,
+      "growth": 0.04886206,
+      "benchmark_levy": 25083138.17
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.01287771,
+      "growth": 0.0423721,
+      "benchmark_levy": 26145963.5
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.0013348,
+      "growth": 0.02764749,
+      "benchmark_levy": 26868833.69
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Bladen County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

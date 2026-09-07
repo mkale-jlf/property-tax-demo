@@ -1,0 +1,88 @@
+{
+  "county": "Brunswick County, NC",
+  "fips": "019",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.342,
+  "r_2016": 0.485,
+  "x": 56315243011,
+  "l_actual": 192664580,
+  "l_2016": 117148742,
+  "b_endpoint": 214546986.49,
+  "l_scenario": 192664580,
+  "r_scenario": 0.3421,
+  "rate_reconciliation_pct": -0.034,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.03618041,
+      "growth": 0.05748396,
+      "benchmark_levy": 123882915.24
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.04637546,
+      "growth": 0.07080023,
+      "benchmark_levy": 132653854.54
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.04316011,
+      "growth": 0.06127988,
+      "benchmark_levy": 140782866.8
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.03393315,
+      "growth": -0.02159631,
+      "benchmark_levy": 137742475.96
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.04766352,
+      "growth": 0.09464375,
+      "benchmark_levy": 150778939.92
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.05389755,
+      "growth": 0.13392486,
+      "benchmark_levy": 170971988.71
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.0452796,
+      "growth": 0.08644412,
+      "benchmark_levy": 185751511.07
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.04681825,
+      "growth": 0.07631264,
+      "benchmark_levy": 199926700.06
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.04681555,
+      "growth": 0.07312823,
+      "benchmark_levy": 214546986.49
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Brunswick County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

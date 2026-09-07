@@ -1,0 +1,88 @@
+{
+  "county": "Chowan County, NC",
+  "fips": "041",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.695,
+  "r_2016": 0.74,
+  "x": 2656396695,
+  "l_actual": 17323255,
+  "l_2016": 10309921,
+  "b_endpoint": 13696404.47,
+  "l_scenario": 13696404.47,
+  "r_scenario": 0.5156,
+  "rate_reconciliation_pct": 6.573,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.01365332,
+      "growth": 0.00765023,
+      "benchmark_levy": 10388794.24
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00028541,
+      "growth": 0.02471018,
+      "benchmark_levy": 10645503.21
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": -0.00727584,
+      "growth": 0.01084393,
+      "benchmark_levy": 10760942.26
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.01544873,
+      "growth": -0.00311189,
+      "benchmark_levy": 10727455.39
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.00430594,
+      "growth": 0.05128617,
+      "benchmark_levy": 11277625.49
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01075503,
+      "growth": 0.09078234,
+      "benchmark_levy": 12301434.74
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": -0.00150981,
+      "growth": 0.0396547,
+      "benchmark_levy": 12789244.41
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00986463,
+      "growth": 0.03935902,
+      "benchmark_levy": 13292616.56
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00406417,
+      "growth": 0.03037686,
+      "benchmark_levy": 13696404.47
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Chowan County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

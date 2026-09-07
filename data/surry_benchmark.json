@@ -1,0 +1,88 @@
+{
+  "county": "Surry County, NC",
+  "fips": "171",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.513,
+  "r_2016": 0.582,
+  "x": 9171681548,
+  "l_actual": 47367745,
+  "l_2016": 32230607,
+  "b_endpoint": 43376461.23,
+  "l_scenario": 43376461.23,
+  "r_scenario": 0.4729,
+  "rate_reconciliation_pct": -0.669,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.00124958,
+      "growth": 0.02255313,
+      "benchmark_levy": 32957508.03
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": -0.00217711,
+      "growth": 0.02224766,
+      "benchmark_levy": 33690735.56
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": -0.00300179,
+      "growth": 0.01511797,
+      "benchmark_levy": 34200071.19
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.00494836,
+      "growth": 0.00738849,
+      "benchmark_levy": 34452757.94
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": -0.00145687,
+      "growth": 0.04552336,
+      "benchmark_levy": 36021163.26
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00356331,
+      "growth": 0.08359062,
+      "benchmark_levy": 39032194.67
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00039141,
+      "growth": 0.04155592,
+      "benchmark_levy": 40654213.53
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.0070147,
+      "growth": 0.03650909,
+      "benchmark_levy": 42138461.92
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00306663,
+      "growth": 0.02937932,
+      "benchmark_levy": 43376461.23
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Surry County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

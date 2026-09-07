@@ -1,0 +1,88 @@
+{
+  "county": "Rutherford County, NC",
+  "fips": "161",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.454,
+  "r_2016": 0.607,
+  "x": 11411024102,
+  "l_actual": 51823099,
+  "l_2016": 37337244,
+  "b_endpoint": 49617934.83,
+  "l_scenario": 49617934.83,
+  "r_scenario": 0.4348,
+  "rate_reconciliation_pct": -0.033,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.00361893,
+      "growth": 0.02492247,
+      "benchmark_levy": 38267780.43
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00244899,
+      "growth": 0.02687376,
+      "benchmark_levy": 39296179.71
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00464621,
+      "growth": 0.02276598,
+      "benchmark_levy": 40190795.71
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.03969805,
+      "growth": -0.02736121,
+      "benchmark_levy": 39091126.98
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.00237688,
+      "growth": 0.04935711,
+      "benchmark_levy": 41020552.12
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00516095,
+      "growth": 0.08518826,
+      "benchmark_levy": 44515021.57
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00807944,
+      "growth": 0.04924395,
+      "benchmark_levy": 46707117
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00304374,
+      "growth": 0.03253814,
+      "benchmark_levy": 48226879.51
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.0025313,
+      "growth": 0.02884398,
+      "benchmark_levy": 49617934.83
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Rutherford County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

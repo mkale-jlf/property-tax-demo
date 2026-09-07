@@ -1,0 +1,88 @@
+{
+  "county": "New Hanover County, NC",
+  "fips": "129",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.306,
+  "r_2016": 0.623,
+  "x": 80988112436,
+  "l_actual": 251847898,
+  "l_2016": 191083822,
+  "b_endpoint": 279078940.03,
+  "l_scenario": 251847898,
+  "r_scenario": 0.311,
+  "rate_reconciliation_pct": -1.598,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.01752163,
+      "growth": 0.03882518,
+      "benchmark_levy": 198502684.83
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.01617999,
+      "growth": 0.04060476,
+      "benchmark_levy": 206562838.09
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00734845,
+      "growth": 0.02546822,
+      "benchmark_levy": 211823625.34
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.03340519,
+      "growth": -0.02106834,
+      "benchmark_levy": 207360852.27
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.01641871,
+      "growth": 0.06339894,
+      "benchmark_levy": 220507309.84
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.02562487,
+      "growth": 0.10565218,
+      "benchmark_levy": 243804388.2
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01614809,
+      "growth": 0.05731261,
+      "benchmark_levy": 257777453.02
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.01441572,
+      "growth": 0.04391011,
+      "benchmark_levy": 269096490.01
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.01078349,
+      "growth": 0.03709617,
+      "benchmark_levy": 279078940.03
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and New Hanover County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

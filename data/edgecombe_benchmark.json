@@ -1,0 +1,88 @@
+{
+  "county": "Edgecombe County, NC",
+  "fips": "065",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.89,
+  "r_2016": 0.95,
+  "x": 4484571498,
+  "l_actual": 39958224,
+  "l_2016": 30376541,
+  "b_endpoint": 37608697.26,
+  "l_scenario": 37608697.26,
+  "r_scenario": 0.8386,
+  "rate_reconciliation_pct": -0.114,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.00915899,
+      "growth": 0.01214456,
+      "benchmark_levy": 30745450.66
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": -0.0147368,
+      "growth": 0.00968797,
+      "benchmark_levy": 31043311.65
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": -0.01126598,
+      "growth": 0.00685378,
+      "benchmark_levy": 31256075.82
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.05148846,
+      "growth": -0.03915162,
+      "benchmark_levy": 30032349.88
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": -0.00856891,
+      "growth": 0.03841132,
+      "benchmark_levy": 31185932.05
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00221244,
+      "growth": 0.08223974,
+      "benchmark_levy": 33750655.13
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01008871,
+      "growth": 0.05125323,
+      "benchmark_levy": 35480485.08
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.0021855,
+      "growth": 0.03167989,
+      "benchmark_levy": 36604503.06
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00112094,
+      "growth": 0.02743362,
+      "benchmark_levy": 37608697.26
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Edgecombe County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

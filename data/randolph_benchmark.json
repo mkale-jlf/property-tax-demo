@@ -1,0 +1,88 @@
+{
+  "county": "Randolph County, NC",
+  "fips": "151",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.5,
+  "r_2016": 0.6525,
+  "x": 20574848118,
+  "l_actual": 102954030,
+  "l_2016": 69635805,
+  "b_endpoint": 97457379.74,
+  "l_scenario": 97457379.74,
+  "r_scenario": 0.4737,
+  "rate_reconciliation_pct": -0.078,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.00048927,
+      "growth": 0.02081427,
+      "benchmark_levy": 71085223.75
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00123077,
+      "growth": 0.02565554,
+      "benchmark_levy": 72908953.6
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00222803,
+      "growth": 0.02034779,
+      "benchmark_levy": 74392489.87
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": 0.00631381,
+      "growth": 0.01865065,
+      "benchmark_levy": 75779958.21
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.0052008,
+      "growth": 0.05218102,
+      "benchmark_levy": 79734234.02
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.0071649,
+      "growth": 0.08719221,
+      "benchmark_levy": 86686438.28
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01091031,
+      "growth": 0.05207482,
+      "benchmark_levy": 91200619.02
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00696272,
+      "growth": 0.03645711,
+      "benchmark_levy": 94525530.44
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.0047038,
+      "growth": 0.03101648,
+      "benchmark_levy": 97457379.74
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Randolph County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

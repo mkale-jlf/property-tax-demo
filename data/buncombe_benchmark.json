@@ -1,0 +1,88 @@
+{
+  "county": "Buncombe County, NC",
+  "fips": "021",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.5466,
+  "r_2016": 0.604,
+  "x": 53610452817,
+  "l_actual": 292375443,
+  "l_2016": 183183106,
+  "b_endpoint": 266479994.2,
+  "l_scenario": 266479994.2,
+  "r_scenario": 0.4971,
+  "rate_reconciliation_pct": 0.225,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.00856509,
+      "growth": 0.02986864,
+      "benchmark_levy": 188654535.83
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00900516,
+      "growth": 0.03342993,
+      "benchmark_levy": 194961243.87
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00894404,
+      "growth": 0.02706381,
+      "benchmark_levy": 200237637.28
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": 0.02920828,
+      "growth": 0.04154512,
+      "benchmark_levy": 208556533.89
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.00862801,
+      "growth": 0.05560824,
+      "benchmark_levy": 220153995.29
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00731169,
+      "growth": 0.087339,
+      "benchmark_levy": 239382025.72
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00891909,
+      "growth": 0.0500836,
+      "benchmark_levy": 251371139.51
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00999772,
+      "growth": 0.03949211,
+      "benchmark_levy": 261298316.81
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": -0.00648218,
+      "growth": 0.0198305,
+      "benchmark_levy": 266479994.2
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Buncombe County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

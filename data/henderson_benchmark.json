@@ -1,0 +1,88 @@
+{
+  "county": "Henderson County, NC",
+  "fips": "089",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.431,
+  "r_2016": 0.565,
+  "x": 25990621259,
+  "l_actual": 112080007,
+  "l_2016": 75143039,
+  "b_endpoint": 108195928.56,
+  "l_scenario": 108195928.56,
+  "r_scenario": 0.4163,
+  "rate_reconciliation_pct": -0.054,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.01512607,
+      "growth": 0.03642961,
+      "benchmark_levy": 77880470.64
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00975475,
+      "growth": 0.03417952,
+      "benchmark_levy": 80542387.5
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.0067778,
+      "growth": 0.02489757,
+      "benchmark_levy": 82547696.86
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.00667252,
+      "growth": 0.00566432,
+      "benchmark_levy": 83015273.72
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.0053447,
+      "growth": 0.05232493,
+      "benchmark_levy": 87359042.29
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00981338,
+      "growth": 0.08984068,
+      "benchmark_levy": 95207438.44
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01103628,
+      "growth": 0.05220079,
+      "benchmark_levy": 100177341.83
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.01373252,
+      "growth": 0.04322691,
+      "benchmark_levy": 104507698.98
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00897878,
+      "growth": 0.03529146,
+      "benchmark_levy": 108195928.56
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Henderson County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

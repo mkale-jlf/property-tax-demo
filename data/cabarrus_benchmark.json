@@ -1,0 +1,88 @@
+{
+  "county": "Cabarrus County, NC",
+  "fips": "025",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.576,
+  "r_2016": 0.7,
+  "x": 49881485579,
+  "l_actual": 287669831,
+  "l_2016": 150892249,
+  "b_endpoint": 249055710.16,
+  "l_scenario": 249055710.16,
+  "r_scenario": 0.4993,
+  "rate_reconciliation_pct": -0.123,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.02602398,
+      "growth": 0.04732753,
+      "benchmark_levy": 158033605.99
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.02172117,
+      "growth": 0.04614594,
+      "benchmark_levy": 165326215.67
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.02296638,
+      "growth": 0.04108615,
+      "benchmark_levy": 172118833.48
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": 0.05038366,
+      "growth": 0.0627205,
+      "benchmark_levy": 182914212.31
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.02026052,
+      "growth": 0.06724075,
+      "benchmark_levy": 195213500.45
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01810269,
+      "growth": 0.09813,
+      "benchmark_levy": 214369801.06
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01964913,
+      "growth": 0.06081364,
+      "benchmark_levy": 227406408.95
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.02074963,
+      "growth": 0.05024402,
+      "benchmark_levy": 238832221.2
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.01649347,
+      "growth": 0.04280615,
+      "benchmark_levy": 249055710.16
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Cabarrus County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

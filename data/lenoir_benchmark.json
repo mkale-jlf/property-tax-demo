@@ -1,0 +1,88 @@
+{
+  "county": "Lenoir County, NC",
+  "fips": "107",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.675,
+  "r_2016": 0.835,
+  "x": 6707364122,
+  "l_actual": 46253231,
+  "l_2016": 35410562,
+  "b_endpoint": 46338026.66,
+  "l_scenario": 46253231,
+  "r_scenario": 0.6896,
+  "rate_reconciliation_pct": -2.116,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.01082705,
+      "growth": 0.0104765,
+      "benchmark_levy": 35781540.7
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": -0.01048655,
+      "growth": 0.01393822,
+      "benchmark_levy": 36280271.83
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00042819,
+      "growth": 0.01854795,
+      "benchmark_levy": 36953196.67
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.01804758,
+      "growth": -0.00571074,
+      "benchmark_levy": 36742166.64
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": -0.00633831,
+      "growth": 0.04064192,
+      "benchmark_levy": 38235438.81
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": -0.00316195,
+      "growth": 0.07686536,
+      "benchmark_levy": 41174419.4
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00812248,
+      "growth": 0.04928699,
+      "benchmark_levy": 43203782.59
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00816616,
+      "growth": 0.03766055,
+      "benchmark_levy": 44830860.88
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00730625,
+      "growth": 0.03361893,
+      "benchmark_levy": 46338026.66
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Lenoir County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

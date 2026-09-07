@@ -1,0 +1,88 @@
+{
+  "county": "Alamance County, NC",
+  "fips": "001",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.494,
+  "r_2016": 0.58,
+  "x": 27010853334,
+  "l_actual": 133091439,
+  "l_2016": 77239576,
+  "b_endpoint": 119732608.38,
+  "l_scenario": 119732608.38,
+  "r_scenario": 0.4433,
+  "rate_reconciliation_pct": 0.257,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.01850859,
+      "growth": 0.03981213,
+      "benchmark_levy": 80314648.22
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.01953149,
+      "growth": 0.04395626,
+      "benchmark_levy": 83844979.83
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.01595642,
+      "growth": 0.03407619,
+      "benchmark_levy": 86702097.32
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": 0.01448813,
+      "growth": 0.02682497,
+      "benchmark_levy": 89027878.43
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.0118981,
+      "growth": 0.05887833,
+      "benchmark_levy": 94269691.38
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01614594,
+      "growth": 0.09617324,
+      "benchmark_levy": 103335913.46
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01642772,
+      "growth": 0.05759223,
+      "benchmark_levy": 109287259.42
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.0222558,
+      "growth": 0.05175019,
+      "benchmark_levy": 114942895.63
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.01535768,
+      "growth": 0.04167037,
+      "benchmark_levy": 119732608.38
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Alamance County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

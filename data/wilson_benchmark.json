@@ -1,0 +1,88 @@
+{
+  "county": "Wilson County, NC",
+  "fips": "195",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.595,
+  "r_2016": 0.73,
+  "x": 11561896006,
+  "l_actual": 68877970,
+  "l_2016": 48588770,
+  "b_endpoint": 65036398.99,
+  "l_scenario": 65036398.99,
+  "r_scenario": 0.5625,
+  "rate_reconciliation_pct": -0.123,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.00182046,
+      "growth": 0.02312401,
+      "benchmark_levy": 49712337.12
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": -0.0006139,
+      "growth": 0.02381087,
+      "benchmark_levy": 50896031.01
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00465625,
+      "growth": 0.02277601,
+      "benchmark_levy": 52055239.73
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.02395598,
+      "growth": -0.01161913,
+      "benchmark_levy": 51450402.88
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": -0.00692844,
+      "growth": 0.04005179,
+      "benchmark_levy": 53511083.79
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00118593,
+      "growth": 0.08121323,
+      "benchmark_levy": 57856891.99
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01120254,
+      "growth": 0.05236705,
+      "benchmark_levy": 60886686.83
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00796301,
+      "growth": 0.0374574,
+      "benchmark_levy": 63167344.11
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00327626,
+      "growth": 0.02958894,
+      "benchmark_levy": 65036398.99
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Wilson County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

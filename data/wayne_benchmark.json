@@ -1,0 +1,88 @@
+{
+  "county": "Wayne County, NC",
+  "fips": "191",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.6259,
+  "r_2016": 0.6635,
+  "x": 13748358150,
+  "l_actual": 87663085,
+  "l_2016": 54196694,
+  "b_endpoint": 71425582.11,
+  "l_scenario": 71425582.11,
+  "r_scenario": 0.5195,
+  "rate_reconciliation_pct": -1.839,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.00938344,
+      "growth": 0.0119201,
+      "benchmark_levy": 54842724.15
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.00228894,
+      "growth": 0.02671371,
+      "benchmark_levy": 56307777
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00340938,
+      "growth": 0.02152914,
+      "benchmark_levy": 57520035.12
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.04960292,
+      "growth": -0.03726608,
+      "benchmark_levy": 55376489.09
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": -0.00290426,
+      "growth": 0.04407597,
+      "benchmark_levy": 57817261.43
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.00672821,
+      "growth": 0.08675552,
+      "benchmark_levy": 62833228.21
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.01290121,
+      "growth": 0.05406572,
+      "benchmark_levy": 66230351.77
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.0120019,
+      "growth": 0.0414963,
+      "benchmark_levy": 68978666.02
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00916083,
+      "growth": 0.03547352,
+      "benchmark_levy": 71425582.11
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Wayne County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

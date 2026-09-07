@@ -1,0 +1,88 @@
+{
+  "county": "Stokes County, NC",
+  "fips": "169",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.625,
+  "r_2016": 0.66,
+  "x": 6683095669,
+  "l_actual": 41907181,
+  "l_2016": 24943486,
+  "b_endpoint": 33589038.41,
+  "l_scenario": 33589038.41,
+  "r_scenario": 0.5026,
+  "rate_reconciliation_pct": -0.329,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": -0.00403094,
+      "growth": 0.01727261,
+      "benchmark_levy": 25374324.98
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": -0.00549114,
+      "growth": 0.01893363,
+      "benchmark_levy": 25854753.11
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00384962,
+      "growth": 0.02196939,
+      "benchmark_levy": 26422766.22
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.02342552,
+      "growth": -0.01108867,
+      "benchmark_levy": 26129772.77
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.00150342,
+      "growth": 0.04848365,
+      "benchmark_levy": 27396639.55
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01122513,
+      "growth": 0.09125244,
+      "benchmark_levy": 29896649.74
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.00824231,
+      "growth": 0.04940682,
+      "benchmark_levy": 31373748.05
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00674651,
+      "growth": 0.0362409,
+      "benchmark_levy": 32510761
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.0068541,
+      "growth": 0.03316678,
+      "benchmark_levy": 33589038.41
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Stokes County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}

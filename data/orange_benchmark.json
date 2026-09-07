@@ -1,0 +1,88 @@
+{
+  "county": "Orange County, NC",
+  "fips": "135",
+  "scope_year": 2025,
+  "baseline_year": 2016,
+  "r_actual": 0.6383,
+  "r_2016": 0.878,
+  "x": 33695281433,
+  "l_actual": 218119292,
+  "l_2016": 148815451,
+  "b_endpoint": 212408681.11,
+  "l_scenario": 212408681.11,
+  "r_scenario": 0.6304,
+  "rate_reconciliation_pct": -1.395,
+  "transitions": [
+    {
+      "to_year": 2017,
+      "inflation": 0.02130355,
+      "population": 0.00542531,
+      "growth": 0.02672885,
+      "benchmark_levy": 152793117.54
+    },
+    {
+      "to_year": 2018,
+      "inflation": 0.02442477,
+      "population": 0.03067036,
+      "growth": 0.05509513,
+      "benchmark_levy": 161211274.67
+    },
+    {
+      "to_year": 2019,
+      "inflation": 0.01811977,
+      "population": 0.00110114,
+      "growth": 0.0192209,
+      "benchmark_levy": 164309900.67
+    },
+    {
+      "to_year": 2020,
+      "inflation": 0.01233684,
+      "population": -0.02998812,
+      "growth": -0.01765128,
+      "benchmark_levy": 161409620.34
+    },
+    {
+      "to_year": 2021,
+      "inflation": 0.04698023,
+      "population": 0.03597267,
+      "growth": 0.0829529,
+      "benchmark_levy": 174799016.95
+    },
+    {
+      "to_year": 2022,
+      "inflation": 0.08002731,
+      "population": 0.01097912,
+      "growth": 0.09100643,
+      "benchmark_levy": 190706851.84
+    },
+    {
+      "to_year": 2023,
+      "inflation": 0.04116451,
+      "population": 0.0077248,
+      "growth": 0.04888931,
+      "benchmark_levy": 200030379.04
+    },
+    {
+      "to_year": 2024,
+      "inflation": 0.02949439,
+      "population": 0.00018455,
+      "growth": 0.02967895,
+      "benchmark_levy": 205967069.72
+    },
+    {
+      "to_year": 2025,
+      "inflation": 0.02631269,
+      "population": 0.00496227,
+      "growth": 0.03127496,
+      "benchmark_levy": 212408681.11
+    }
+  ],
+  "mapping_note": "The transition into year T uses that year's CPI inflation change (BLS national CPI-U annual average, T-1 to T) and Orange County resident population growth from Census vintage estimates (T-1 to T). Nine transitions compound the 2016 baseline levy to the 2025 benchmark ceiling.",
+  "sources": {
+    "ncdor_levy": "https://www.ncdor.gov/news/local-government/reports-statistics-property-tax-rates",
+    "parcels": "https://services.nconemap.gov/secure/rest/services/NC1Map_Parcels/MapServer/0",
+    "census_pop": "https://www.census.gov/programs-surveys/popest.html",
+    "bls_cpi": "https://www.bls.gov/cpi/",
+    "hb1089": "https://www.ncleg.gov/EnactedLegislation/SessionLaws/HTML/2025-2026/SL2026-5.html"
+  }
+}
