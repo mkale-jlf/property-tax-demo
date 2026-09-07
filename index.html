@@ -128,14 +128,6 @@
   <aside id="leftPanel">
     <!-- County view (left) -->
     <section id="countyPanel" class="view active">
-      <div class="county-bar">
-        <select id="countySelect" aria-label="Select county">
-          <option value="" selected>--Select a County--</option>
-          <option value="mecklenburg">Mecklenburg County</option>
-          <option value="halifax">Halifax County</option>
-        </select>
-        <div class="grade-badge" id="gradeBadge" title=""></div>
-      </div>
       <details class="section-card" open>
         <summary>Check My Address</summary>
         <div class="body">
@@ -159,15 +151,23 @@
           </div>
         </div>
       </details>
-      <details class="section-card county-collapsible">
+      <details class="section-card" open>
         <summary>County Revenue &amp; Spending Flow</summary>
         <div class="body" style="position:relative;">
+          <div class="county-bar">
+            <select id="countySelect" aria-label="Select county">
+              <option value="" selected>--Select a County--</option>
+              <option value="mecklenburg">Mecklenburg County</option>
+              <option value="halifax">Halifax County</option>
+            </select>
+            <div class="grade-badge" id="gradeBadge" title=""></div>
+          </div>
           <p class="chart-note">Share of total revenue by source (left) flows into a shared General Fund pool, then out by spending area (right).</p>
           <div class="sankey-tooltip" id="sankeyTip"></div>
           <svg id="sankey" viewBox="0 0 700 520" width="100%"></svg>
         </div>
       </details>
-      <details class="section-card county-collapsible">
+      <details class="section-card county-collapsible" style="display:none">
         <summary>County Financial Data</summary>
         <div class="body">
           <p class="chart-note">County-level constants behind the per-property benchmark (FY figures).</p>
