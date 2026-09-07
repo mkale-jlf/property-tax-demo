@@ -87,17 +87,12 @@
   .prop-line b { color: #222; }
   .note { font-size: 12px; color: #888; line-height: 1.45; margin: 8px 0 0; }
 
-  /* Bill analysis: three simple boxes */
+  /* Bill analysis */
   #billResults { padding: 22px 24px 40px; max-width: 940px; margin: 0 auto; }
-  .bill-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 26px; }
-  .bill-card { border-radius: 12px; padding: 22px 20px; background: #fff; border: 1px solid #e2e2e2; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
-  .bill-card .lab { font-size: 12px; color: #777; font-weight: 700; letter-spacing: .3px; text-transform: uppercase; margin-bottom: 10px; }
-  .bill-card .amt { font-size: 30px; font-weight: 900; line-height: 1.1; }
-  .bill-card .diff-note { margin-top: 10px; font-size: 13.5px; line-height: 1.4; font-weight: 700; }
-  .bill-card.pos { background: #e7f5ec; border-color: #a7dcbe; }
-  .bill-card.pos .amt, .bill-card.pos .diff-note { color: #04843d; }
-  .bill-card.neg { background: #fdefef; border-color: #fcb4b4; }
-  .bill-card.neg .amt, .bill-card.neg .diff-note { color: #c41230; }
+  .saved-line { font-size: 27px; font-weight: 900; line-height: 1.15; color: #1a1919; margin: 0 0 20px; }
+  .saved-line .saved-amt { color: #c41230; }
+  .saved-sub { font-size: 14.5px; color: #333; margin: 5px 0; line-height: 1.4; }
+  .saved-sub b { color: #1a1919; }
   .below-sentence { margin-top: 26px; padding: 22px 20px; border-radius: 12px; background: #e7f5ec; border: 1px solid #a7dcbe; color: #04843d; font-size: 17px; font-weight: 700; line-height: 1.45; }
   .detail-item { font-size: 13.5px; margin: 4px 0; color: #444; }
   .detail-item b { color: #222; }
@@ -207,20 +202,10 @@
     <!-- Bill analysis -->
     <div id="billResults" class="view hidden">
       <p class="below-sentence hidden" id="belowSentence"></p>
-      <div class="bill-cards" id="billCards">
-        <div class="bill-card">
-          <div class="lab">What you paid</div>
-          <div class="amt" id="mActual"></div>
-        </div>
-        <div class="bill-card">
-          <div class="lab">What you could have paid</div>
-          <div class="amt" id="mScenario"></div>
-        </div>
-        <div class="bill-card" id="diffCard">
-          <div class="lab">The difference</div>
-          <div class="amt" id="mDiff"></div>
-          <div class="diff-note" id="mDiffNote"></div>
-        </div>
+      <div id="savedBlock">
+        <p class="saved-line">You could have saved <span class="saved-amt" id="savedAmt"></span></p>
+        <p class="saved-sub"><b>What you paid:</b> <span id="sActual"></span></p>
+        <p class="saved-sub"><b>What you could have paid:</b> <span id="sScenario"></span></p>
       </div>
     </div>
   </main>
@@ -362,7 +347,7 @@ function clearBill() {
   byId("billResults").classList.add("hidden");
   byId("billMeta").classList.add("hidden");
   byId("belowSentence").classList.add("hidden");
-  byId("billCards").classList.remove("hidden");
+  byId("savedBlock").classList.remove("hidden");
   if (PARCEL_LAYER) { MAP && MAP.removeLayer(PARCEL_LAYER); PARCEL_LAYER = null; }
 }
 
@@ -611,11 +596,11 @@ function selectParcel(f) {
 
   // Bill comparison needs a benchmark (official county rate/levy/base inputs).
   const sentence = byId("belowSentence");
-  const cards = byId("billCards");
+  const saved = byId("savedBlock");
   if (!COUNTY) {
     sentence.textContent = "The per-property comparison is unavailable for this county yet.";
     sentence.classList.remove("hidden");
-    cards.classList.add("hidden");
+    saved.classList.add("hidden");
     byId("billResults").classList.remove("hidden");
     highlightParcel(f.parno);
     return;
@@ -624,25 +609,21 @@ function selectParcel(f) {
   const vm = PT.computeComparison(f.parval, COUNTY);
 
   // When the county as a whole was below the HB 1089 benchmark, a simple
-  // sentence replaces the three-box comparison. Otherwise show the boxes.
+  // sentence replaces the comparison. Otherwise show the saved line and
+  // the two what-you-paid subheadings.
   if (vm.below_benchmark) {
     const c = SELECTED ? COUNTIES[SELECTED] : null;
     const nm = c ? c.label.replace(/ County$/, "") : "the county";
     sentence.textContent = "Property tax rate growth in " + nm + " County was below the maximum proposed under HB 1089.";
     sentence.classList.remove("hidden");
-    cards.classList.add("hidden");
+    saved.classList.add("hidden");
   } else {
     sentence.classList.add("hidden");
     sentence.textContent = "";
-    cards.classList.remove("hidden");
-    byId("mActual").textContent = fmtMoney(vm.tax_actual);
-    byId("mScenario").textContent = fmtMoney(vm.tax_scenario);
-    const over = vm.difference > 0;
-    byId("mDiff").textContent = fmtMoney(vm.difference);
-    byId("mDiffNote").textContent = over ? "This amendment could have saved you " + fmtMoney(Math.abs(vm.difference)) : "";
-    const diffCard = byId("diffCard");
-    diffCard.classList.remove("pos", "neg");
-    diffCard.classList.add(over ? "neg" : "pos");
+    saved.classList.remove("hidden");
+    byId("savedAmt").textContent = fmtMoney(vm.difference);
+    byId("sActual").textContent = fmtMoney(vm.tax_actual);
+    byId("sScenario").textContent = fmtMoney(vm.tax_scenario);
   }
   byId("billResults").classList.remove("hidden");
   highlightParcel(f.parno);
